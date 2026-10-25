@@ -21,8 +21,9 @@ organization = "Renaissance Computing Institute (RENCI), University of North Car
 # If the file is missing, the site shows your initials instead.
 photo = "assets/images/profile.jpg"
 email = "anirban@renci.org"
-# Link from the image on your current home page (Google Drive). Rename the label if it is not your CV.
-cv_url = "https://drive.google.com/file/d/1XHfx2hOhocCa7zygwPSm2ZpaudF4U0nO/view?usp=sharing"
+# The PDF made by cv.py. Run `python3 cv.py` to refresh it, then commit cv/Anirban_Mandal_CV.pdf.
+# Old Google Drive copy: https://drive.google.com/file/d/1XHfx2hOhocCa7zygwPSm2ZpaudF4U0nO/view?usp=sharing
+cv_url = "cv/Anirban_Mandal_CV.pdf"
 cv_label = "CV"
 
 # Paragraphs of the "About" section on the home page

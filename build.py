@@ -627,6 +627,10 @@ def build():
         shutil.rmtree(OUT)
     OUT.mkdir()
     shutil.copytree(ASSETS, OUT / "assets", ignore=shutil.ignore_patterns("README*", ".DS_Store"))
+    # publish the PDF made by cv.py (it is committed, since the deploy job can't run Chrome)
+    for pdf in (ROOT / "cv").glob("*.pdf"):
+        (OUT / "cv").mkdir(exist_ok=True)
+        shutil.copy2(pdf, OUT / "cv" / pdf.name)
 
     pages = {
         "index.html": build_home(site, pubs, projects, news, awards, service),

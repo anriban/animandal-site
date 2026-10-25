@@ -112,16 +112,14 @@ python3 cv.py --html   # HTML only; open cv/cv.html in a browser and print to PD
 
 ### Publishing the CV on the website
 
-To link the website's **CV** button to this PDF instead of the Google Drive file, copy the PDF into `assets/` and change `cv_url` in `site.toml`:
+The website's **CV** button links to this PDF (`cv_url = "cv/Anirban_Mandal_CV.pdf"` in `site.toml`). `build.py` copies every PDF in `cv/` into the site, so there is no copy step.
+
+The GitHub deploy job can't run Chrome, so it publishes the PDF you committed. After changing anything that appears in the CV:
 
 ```sh
-cp cv/Anirban_Mandal_CV.pdf assets/
+python3 cv.py
+git add cv/Anirban_Mandal_CV.pdf content/ && git commit -m "Update CV" && git push
 ```
-```toml
-cv_url = "assets/Anirban_Mandal_CV.pdf"
-```
-
-Then run `python3 build.py`. Repeat the copy step whenever you regenerate the CV.
 
 ## Publishing
 
