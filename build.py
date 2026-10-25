@@ -224,13 +224,18 @@ def profile_links(site, include_cv=True, vertical=False):
     p = site["profile"]
     cls = "side-link" if vertical else "chip"
     out = []
+    links = site.get("links", [])
+    for l in links:
+        if l.get("top"):
+            out.append(link(l["url"], f'{icon(l.get("icon", "link"))}<span>{esc(l["label"])}</span>', cls))
     if include_cv and p.get("cv_url"):
         out.append(link(p["cv_url"], f'{icon("doc")}<span>{esc(p.get("cv_label", "CV"))}</span>', cls if vertical else "chip chip-strong"))
     if p.get("email"):
         label = esc(p["email"]) if vertical else "Email"
         out.append(link(f"mailto:{p['email']}", f'{icon("email")}<span>{label}</span>', cls))
-    for l in site.get("links", []):
-        out.append(link(l["url"], f'{icon(l.get("icon", "link"))}<span>{esc(l["label"])}</span>', cls))
+    for l in links:
+        if not l.get("top"):
+            out.append(link(l["url"], f'{icon(l.get("icon", "link"))}<span>{esc(l["label"])}</span>', cls))
     if vertical:
         return f'<ul class="side-links">{"".join(f"<li>{o}</li>" for o in out)}</ul>'
     return f'<div class="chips">{"".join(out)}</div>'

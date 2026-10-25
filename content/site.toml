@@ -64,6 +64,7 @@ year = "2000"
 
 # Profile links shown as icons/buttons. icon is one of:
 # scholar, orcid, dblp, researchgate, linkedin, github, x, mastodon, bluesky, facebook, email, link
+# Set top = true to list a link first, before the CV and email links.
 [[links]]
 label = "Google Scholar"
 url = "https://scholar.google.com/citations?hl=en&user=lwdMUeQAAAAJ"
@@ -88,6 +89,7 @@ icon = "researchgate"
 label = "LinkedIn"
 url = "https://www.linkedin.com/in/anirban-mandal-1176801/"
 icon = "linkedin"
+top = true
 
 # Uncomment to show Facebook as well (it was linked from the old site).
 # [[links]]
