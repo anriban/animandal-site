@@ -1,0 +1,69 @@
+/* CV print styles (used by cv.py). US Letter; change `size` below for A4. */
+@page {
+  size: Letter;
+  margin: 0.65in 0.7in 0.7in;
+  @bottom-left { content: "__FOOTER__"; font: 7.5pt "Source Sans 3", sans-serif; color: #6a7282; }
+  @bottom-right { content: "Page " counter(page) " of " counter(pages); font: 7.5pt "Source Sans 3", sans-serif; color: #6a7282; }
+}
+:root { --navy: #13294b; --carolina: #4b9cd3; --link: #1d4f91; --text: #1c2230; --muted: #5d6576; --line: #d5dae2; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin: 0; color: var(--text); font: 9.6pt/1.42 "Source Sans 3", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; }
+a { color: var(--link); text-decoration: none; }
+p { margin: 0; }
+
+/* header */
+.cv-header { border-bottom: 2.5pt solid var(--navy); padding-bottom: 8pt; margin-bottom: 4pt; position: relative; }
+.cv-header::after { content: ""; position: absolute; left: 0; right: 0; bottom: -5pt; border-bottom: 1pt solid var(--carolina); }
+.cv-header h1 { margin: 0; font: 600 24pt/1.1 "Source Serif 4", Georgia, serif; color: var(--navy); letter-spacing: -.01em; }
+.cv-header h1 span { font-size: 15pt; color: var(--muted); font-weight: 600; }
+.headline { margin-top: 3pt; font-size: 10.5pt; font-weight: 600; color: var(--text); }
+.contact { color: var(--muted); font-size: 9pt; margin-top: 1pt; }
+.dot { color: var(--carolina); padding: 0 2pt; }
+
+/* sections */
+.cv-section { margin-top: 13pt; }
+.cv-section h2 {
+  margin: 0 0 6pt; padding-bottom: 2pt; border-bottom: .75pt solid var(--line);
+  font: 700 9.5pt/1.2 "Source Sans 3", sans-serif; text-transform: uppercase; letter-spacing: .12em; color: var(--navy);
+  break-after: avoid;
+}
+.cv-section h3 { margin: 9pt 0 4pt; font: 600 10.5pt/1.2 "Source Serif 4", Georgia, serif; color: var(--navy); break-after: avoid; }
+.cv-section h3 .count { font: 400 8.5pt "Source Sans 3", sans-serif; color: var(--muted); }
+.summary { font-size: 10pt; line-height: 1.5; }
+.stats { margin-top: 5pt; padding: 4pt 8pt; background: #f2f5f9; border-left: 2.5pt solid var(--navy); font-size: 9.2pt; }
+.stats strong { color: var(--navy); font-size: 10pt; }
+.interests { margin-top: 5pt; }
+.label { font-weight: 700; color: var(--navy); }
+
+/* dated entries */
+.entry { display: flex; justify-content: space-between; gap: 12pt; padding: 2.5pt 0; break-inside: avoid; }
+.what { flex: 1; }
+.when { flex: none; text-align: right; color: var(--muted); font-size: 9pt; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.main strong { color: var(--text); }
+.sub { color: var(--muted); font-size: 9pt; }
+.note { font-style: italic; }
+.small { font-size: 8.6pt; color: var(--muted); }
+.bullets { margin: 2pt 0 0; padding-left: 12pt; }
+.bullets li { margin: 1pt 0; }
+.bullets li::marker { color: var(--carolina); }
+.role { display: inline-block; font-size: 7.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: #fff; background: var(--navy); padding: 0 4pt; border-radius: 2pt; vertical-align: 1pt; }
+.note-line { font-size: 8.5pt; color: var(--muted); font-style: italic; margin-bottom: 3pt; }
+
+/* numbered lists */
+.pubs, .talks { list-style: none; margin: 0; padding: 0; }
+.pubs li, .talks li { display: grid; grid-template-columns: 30pt 1fr; gap: 4pt; padding: 1.8pt 0; break-inside: avoid; }
+.talks li { grid-template-columns: 48pt 1fr; }
+.num { color: var(--navy); font-weight: 700; font-size: 8.6pt; font-variant-numeric: tabular-nums; }
+.talks .num { font-weight: 600; color: var(--muted); }
+.pubs strong.me { color: var(--navy); }
+.pubs a { color: var(--text); }
+.kind { font-size: 8pt; color: var(--muted); }
+.flag { display: inline-block; font-size: 7.5pt; font-weight: 700; padding: 0 3.5pt; border-radius: 2pt; background: #e8f3eb; color: #2d6a3e; margin-left: 2pt; }
+.flag.award { background: #fbf3e0; color: #8a5a00; }
+
+/* service */
+.cols { columns: 2; column-gap: 20pt; margin: 0; padding-left: 12pt; }
+.cols li { break-inside: avoid; margin: 1pt 0; }
+.plain { margin: 0; padding-left: 12pt; }
+.plain li { margin: 1pt 0; }

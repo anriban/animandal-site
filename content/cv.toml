@@ -1,0 +1,379 @@
+# CV-only content. Everything else in the CV (profile, publications, grants, honors,
+# service, projects) comes from the other files in content/, so the website and the CV
+# never drift apart. Rebuild the PDF with:  python3 cv.py
+#
+# Text fields accept the same small Markdown as the website: [link](url), **bold**, *italic*.
+
+[cv]
+# Shown under your name at the top of the CV
+headline = "Director, Network Research & Infrastructure Group (NRIG), RENCI · Associate Director, CI Compass"
+# Two to four sentences. Keep it about impact and focus, not a list of keywords.
+summary = "Computer systems researcher working at the intersection of distributed systems and scientific computing. I lead federally funded, multi-institutional research on AI-enabled scientific workflows, edge-to-cloud computing, network testbeds, performance and anomaly analysis, and cyberinfrastructure (CI) for NSF Major Facilities. My work has been supported by NSF and DOE awards with combined budgets of more than $40M, and has produced more than 100 publications, including four best paper awards."
+# Output file name (written to cv/)
+filename = "Anirban_Mandal_CV.pdf"
+# Publication groups, in order. Each publication's `type` decides its group.
+publication_groups = [
+  { title = "Journal Articles", types = ["journal"] },
+  { title = "Conference Papers", types = ["conference"] },
+  { title = "Workshop Papers", types = ["workshop"] },
+  { title = "Book Chapters", types = ["chapter"] },
+  { title = "Reports, Preprints, Posters, and Theses", types = ["report", "preprint", "poster", "thesis"] },
+]
+
+# ---------------------------------------------------------------- experience (newest first)
+
+[[position]]
+title = "Director, Network Research and Infrastructure Group (NRIG)"
+org = "Renaissance Computing Institute (RENCI), UNC Chapel Hill"
+dates = "2024–present"
+note = "Interim Director from January 2024."
+bullets = [
+  "Lead a team of PhD researchers, software developers, and CI experts carrying out federally funded R&D in networking, distributed systems, scientific computing, cybertraining, and computer systems.",
+  "PI or co-PI on multiple multi-institutional NSF and DOE projects; develop research agendas and coordinate work across partner universities and national laboratories.",
+  "Build new research directions and partnerships with federal agencies, NSF Major and Mid-scale Facilities, national labs, and industry.",
+]
+
+[[position]]
+title = "Associate Director, CI Compass"
+org = "NSF Cyberinfrastructure Center of Excellence"
+dates = "2021–present"
+bullets = [
+  "Co-lead planning, community engagement, and operations of the Center, which supports CI practitioners across NSF Major and Mid-scale Facilities.",
+  "Liaison to the NSF Large Facilities Office; organize the NSF CI for Major Facilities workshops and CI Compass virtual workshops.",
+]
+
+[[position]]
+title = "Assistant Director, Network Research and Infrastructure Group"
+org = "RENCI, UNC Chapel Hill"
+dates = "2019–2024"
+
+[[position]]
+title = "Senior Research Scientist, HPC and Network Research and Infrastructure"
+org = "RENCI, UNC Chapel Hill"
+dates = "2006–2019"
+bullets = [
+  "Led and executed federally funded research on cloud computing, scientific workflows, performance analysis, anomaly detection, machine learning, networked testbeds (ExoGENI), and CI for scientific applications.",
+]
+
+[[position]]
+title = "Graduate Research Assistant"
+org = "Rice University (advisor: Ken Kennedy)"
+dates = "2001–2006"
+bullets = [
+  "Developed heuristic workflow scheduling using performance models, batch-queue-aware scheduling, and scalable application scheduling for Grid systems (GrADS and VGrADS projects).",
+]
+
+[[position]]
+title = "Graduate Research Intern"
+org = "USC Information Sciences Institute (supervisors: Carl Kesselman and Ewa Deelman)"
+dates = "Summer 2003"
+bullets = [
+  "Extended the Pegasus Workflow Management System with new scheduling algorithms and dynamic task-based scheduling.",
+]
+
+# ---------------------------------------------------------------- education details
+# Matched to profile.education in site.toml by degree; adds thesis and advisor.
+
+[[education]]
+degree = "Ph.D., Computer Science"
+school = "Rice University, Houston, TX"
+year = "2006"
+thesis = "Toward a Tool for Scheduling Application Workflows onto Distributed Grid Systems"
+advisor = "Ken Kennedy"
+
+[[education]]
+degree = "M.S., Computer Science"
+school = "Rice University, Houston, TX"
+year = "2002"
+thesis = "Mapping HPF onto the Grid"
+advisor = "Ken Kennedy"
+
+[[education]]
+degree = "B.Tech., Computer Science and Engineering"
+school = "Indian Institute of Technology Bombay, Mumbai, India"
+year = "2000"
+thesis = "Design and Implementation of a Java JIT Compiler"
+advisor = "D. M. Dhamdhere"
+
+# ---------------------------------------------------------------- honors not on the website
+# (Best paper awards etc. come from awards.toml; list anything extra here.)
+
+[[extra_honor]]
+year = 2023
+title = "Best Paper Runner-Up"
+event = "CNERT Workshop at IEEE INFOCOM 2023"
+paper = "Experiments on Network Services for Video Transmission using FABRIC Instrument Resources"
+
+[[extra_honor]]
+year = 2021
+title = "Editor's Choice Paper"
+event = "Elsevier Future Generation Computer Systems (FGCS)"
+paper = "End-to-end online performance data capture and analysis for scientific workflows"
+
+# ---------------------------------------------------------------- mentoring & teaching
+
+[[teaching]]
+role = "PI and program lead, NSF REU Site: Multi-disciplinary Research with the FABRIC Network"
+org = "RENCI, UNC Chapel Hill"
+dates = "2025–present"
+note = "Nine-week summer research program for undergraduates; first cohort of eight students in 2026."
+
+[[teaching]]
+role = "Mentor to PhD researchers, research staff, and graduate students"
+org = "RENCI and partner institutions"
+dates = "2006–present"
+
+[[teaching]]
+role = "Teaching Assistant (five semesters)"
+org = "Rice University"
+dates = "2000–2002"
+note = "Operating Systems, Compiler Construction, Design and Analysis of Algorithms, and Principles of Computing and Programming. Led lab sessions and mentored visiting undergraduate summer students."
+
+# ---------------------------------------------------------------- talks (newest first)
+# kind: invited | panel | presentation | poster | tutorial | webinar
+
+[[talk]]
+date = "2025-10"
+title = "PegasusAI: AI-Driven Scientific Workflow Management"
+event = "UNC Research Week: AI-Powered Solutions for Scientific Discoveries, Chapel Hill, NC"
+kind = "invited"
+
+[[talk]]
+date = "2024-11"
+title = "NSF CI Compass Cyberinfrastructure Center of Excellence: Recent Updates"
+event = "RENCI booth, SC24, Atlanta, GA"
+kind = "presentation"
+
+[[talk]]
+date = "2024-04"
+title = "Network Testbed for Experimenting With Decentralized Federated Learning"
+event = "IEEE DCOSS-IoT 2024, Abu Dhabi, UAE"
+kind = "poster"
+
+[[talk]]
+date = "2024-03"
+title = "CI Compass: The NSF CI Center of Excellence for Navigating the Major Facilities Data Lifecycle"
+event = "NSF Research Infrastructure Workshop, Tucson, AZ"
+kind = "poster"
+
+[[talk]]
+date = "2024-02"
+title = "Overview of the PosEiDon and SWARM Projects"
+event = "DOE ASCR Computer Science PI Meeting, Atlanta, GA"
+kind = "poster"
+
+[[talk]]
+date = "2024-01"
+title = "If I Knew Then What I Know Now, I Would Have Never Designed It This Way: Approaches to CI Conceptualization and Design"
+event = "NSF CI for Major Facilities Workshop, Long Beach, CA"
+kind = "panel"
+
+[[talk]]
+date = "2023-06"
+title = "CI Compass Overview"
+event = "NSF Research Infrastructure Workshop, Washington, DC"
+kind = "poster"
+
+[[talk]]
+date = "2022-09"
+title = "Cyberinfrastructure Workshop at RIW 2022 (closing presentation)"
+event = "NSF Research Infrastructure Workshop, Boulder, CO"
+kind = "presentation"
+
+[[talk]]
+date = "2022-06"
+title = "Building a Community around Cyberinfrastructure for NSF Major Facilities"
+event = "CI Compass Webinar"
+kind = "webinar"
+
+[[talk]]
+date = "2022-03"
+title = "Cyberinfrastructure for Major Facilities: Challenges and a Path Forward"
+event = "NSF CI for Major Facilities Workshop, Redondo Beach, CA"
+kind = "panel"
+
+[[talk]]
+date = "2022-02"
+title = "Engaging with CI Compass"
+event = "CI Compass Webinar"
+kind = "webinar"
+
+[[talk]]
+date = "2020-03"
+title = "Leveraging Distributed Research Cloud Infrastructures for Domain Science Research and Experimentation"
+event = "Open Cloud Workshop, Boston, MA"
+kind = "panel"
+
+[[talk]]
+date = "2020-02"
+title = "The Role of ML in Diagnosis of Integrity Errors in Distributed CI"
+event = "NSF Workshop on Smart Cyberinfrastructure, Crystal City, VA"
+kind = "invited"
+
+[[talk]]
+date = "2019-11"
+title = "Dynamic Network-centric Multi-cloud Platform (DyNamo) for Real-Time Weather Forecasting Workflows"
+event = "SCinet Technology Challenge, SC19, Denver, CO (two awards)"
+kind = "presentation"
+
+[[talk]]
+date = "2019-11"
+title = "Leveraging Distributed Cloud Testbeds for Domain Science Research and Experimentation"
+event = "NSF Workshop on Next Generation Cloud Research Infrastructure, Princeton, NJ"
+kind = "invited"
+
+[[talk]]
+date = "2019-11"
+title = "Leveraging Distributed Networked Cloud Testbeds for Domain Science Research and Experimentation"
+event = "Global Experimentation for Future Internet (GEFI) Workshop, Coimbra, Portugal"
+kind = "invited"
+
+[[talk]]
+date = "2019-11"
+title = "Cyberinfrastructure Center of Excellence Pilot"
+event = "UNOLS Fall Council Meeting, Alexandria, VA"
+kind = "invited"
+
+[[talk]]
+date = "2019-09"
+title = "Data Life Cycle for Large Facilities"
+event = "NSF Large Facilities CI Workshop, Alexandria, VA"
+kind = "presentation"
+
+[[talk]]
+date = "2019-09"
+title = "Integrity Introspection for Scientific Workflows"
+event = "NSF CC*/CICI PI Meeting, Minneapolis, MN"
+kind = "panel"
+
+[[talk]]
+date = "2019-08"
+title = "CICoE Pilot: Data Life Cycle and Disaster Recovery for Large Facilities"
+event = "CI CoE Pilot Webinar"
+kind = "webinar"
+
+[[talk]]
+date = "2019-08"
+title = "Integrity Protection for Scientific Workflow Data: Motivation and Initial Experiences"
+event = "Trusted CI Webinar Series"
+kind = "webinar"
+
+[[talk]]
+date = "2018-10"
+title = "Investigating Use of Distributed Research Infrastructures and Testbeds for Domain Science Experimentation and Validation"
+event = "GEFI Workshop, Tokyo, Japan"
+kind = "invited"
+
+[[talk]]
+date = "2017-10"
+title = "Workflow Adaptation on Networked Cloud Infrastructures Using Intent and Performance Models"
+event = "Internet2 Technology Exchange, San Francisco, CA"
+kind = "presentation"
+
+[[talk]]
+date = "2016-07"
+title = "Anomaly Detection for Scientific Workflow Applications on Networked Clouds"
+event = "IEEE HPCS 2016, Innsbruck, Austria"
+kind = "presentation"
+
+[[talk]]
+date = "2016-05"
+title = "Toward an End-to-end Framework for Modeling, Monitoring and Anomaly Detection for Scientific Workflows"
+event = "LSPP Workshop at IPDPS 2016, Chicago, IL"
+kind = "presentation"
+
+[[talk]]
+date = "2015-12"
+title = "Adapting Scientific Workflows on Networked Clouds Using Proactive Introspection"
+event = "IEEE/ACM UCC 2015, Limassol, Cyprus"
+kind = "presentation"
+
+[[talk]]
+date = "2015-09"
+title = "Distributed Computing on GENI: Hadoop in a Slice (hands-on)"
+event = "36th IEEE Sarnoff Symposium, Newark, NJ"
+kind = "tutorial"
+
+[[talk]]
+date = "2014-11"
+title = "Managing Dynamic Networked Cloud Infrastructure for Data Driven Scientific Workflows Using Proactive Introspection"
+event = "INDIS Workshop at SC14, New Orleans, LA"
+kind = "presentation"
+
+[[talk]]
+date = "2014-03"
+title = "Leveraging and Adapting ExoGENI Infrastructure for Data-driven Domain Science Workflows"
+event = "3rd GENI Research and Educational Experiment Workshop (GREE 2014), Atlanta, GA"
+kind = "presentation"
+
+[[talk]]
+date = "2014-03"
+title = "Distributed Computing on GENI: Hadoop in a Slice"
+event = "GENI Winter Camp, Boston, MA (Jan 2014) and GENI Engineering Conference 19, Atlanta, GA"
+kind = "tutorial"
+
+[[talk]]
+date = "2014-02"
+title = "Leveraging Persistent Queries for Monitoring Distributed, Data-intensive Scientific Applications"
+event = "2nd NSF perfSONAR Workshop, Arlington, VA"
+kind = "invited"
+
+[[talk]]
+date = "2013-11"
+title = "Evaluating I/O Aware Network Management for Scientific Workflows on Networked Clouds"
+event = "NDM'13 Workshop at SC13, Denver, CO"
+kind = "presentation"
+
+[[talk]]
+date = "2013-03"
+title = "Distributed ResOurce Ensembles for Petascale Science"
+event = "DOE NGNS PI Meeting, LBNL, Emeryville, CA"
+kind = "presentation"
+
+[[talk]]
+date = "2013-01"
+title = "ExoGENI: A Distributed Networked Infrastructure-as-a-Service (NIaaS) Platform for Experimentation"
+event = "NIST Cloud Computing and Big Data Workshop, Gaithersburg, MD"
+kind = "poster"
+
+[[talk]]
+date = "2012-07"
+title = "Client Authentication and Authorization for GENI XMPP Messaging Service"
+event = "14th GENI Engineering Conference"
+kind = "presentation"
+
+[[talk]]
+date = "2012-06"
+title = "System-wide Introspection for Accurate Attribution of Performance Bottlenecks"
+event = "WHIST'12 Workshop, Venice, Italy"
+kind = "presentation"
+
+[[talk]]
+date = "2012-02"
+title = "Provisioning and Scheduling Scientific Workflows"
+event = "Department of Computer Science, Duke University, Durham, NC"
+kind = "invited"
+
+[[talk]]
+date = "2011-12"
+title = "Provisioning and Evaluating Multi-domain Networked Clouds for Hadoop-based Applications"
+event = "IEEE CloudCom 2011, Athens, Greece"
+kind = "presentation"
+
+[[talk]]
+date = "2010-03"
+title = "Modeling Memory Concurrency for Multi-Socket Multi-Core Systems"
+event = "IEEE ISPASS 2010, White Plains, NY"
+kind = "presentation"
+
+[[talk]]
+date = "2008-05"
+title = "Fault Tolerance and Recovery of Scientific Workflows on Computational Grids"
+event = "IEEE CCGrid 2008, Lyon, France"
+kind = "presentation"
+
+[[talk]]
+date = "2005-07"
+title = "Scheduling Strategies for Mapping Application Workflows onto the Grid"
+event = "IEEE HPDC 2005, Raleigh, NC"
+kind = "presentation"

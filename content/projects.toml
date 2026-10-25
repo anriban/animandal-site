@@ -1,0 +1,224 @@
+# Research projects, shown on the Research page (and the first few current ones on Home).
+#
+# Fields:
+#   name        short name, e.g. "CI Compass"
+#   title       full project title (optional)
+#   status      "current" or "previous"
+#   role        your role
+#   funder      e.g. "National Science Foundation"
+#   award       award number(s) (optional)
+#   award_url   link to the award page (optional)
+#   years       e.g. "2021–2026" (optional)
+#   website     project website (optional)
+#   overview    link to a slide deck / paper giving an overview (optional)
+#   summary     a paragraph; Markdown links allowed
+#   tags        short keywords (optional)
+
+[[project]]
+name = "PegasusAI"
+title = "CSSI: Frameworks: Applying Artificial Intelligence Advances to the Next Generation of Workflow Management on Modern Cyberinfrastructure"
+status = "current"
+role = "Co-Principal Investigator"
+funder = "National Science Foundation"
+award = "2513101"
+award_url = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2513101"
+years = "2025–2030"
+website = "https://pegasusai.io/"
+overview = "https://renci.org/news/universities-unite-to-advance-ai-driven-workflow-management-on-modern-cyberinfrastructure/"
+summary = "Applies new advances in AI to build an open, modular workflow management framework (iWMS) that brings AI to the entire workflow lifecycle across the computing continuum: automated workflow composition, intelligent resource provisioning, performance prediction, real-time anomaly detection, and workflow adaptation. Retrieval-augmented generation supports workflow discovery and assembly, and ML-based planning and monitoring optimize execution and reliability. The project is led by USC/ISI with RENCI, the University of Tennessee, Knoxville, and UMass Amherst, and builds on the Pegasus Workflow Management System."
+tags = ["AI for workflows", "Pegasus", "Computing continuum"]
+
+[[project]]
+name = "CI Compass"
+title = "CI CoE: CI Compass: An NSF CI Center of Excellence for Navigating the Major Facilities Data Lifecycle"
+status = "current"
+role = "Co-Principal Investigator"
+funder = "National Science Foundation"
+award = "2127548"
+award_url = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2127548"
+years = "2021–2026"
+website = "https://ci-compass.org/"
+overview = "https://ci-compass.org/about/"
+summary = "Provides expertise and active support to cyberinfrastructure practitioners at [NSF Major Facilities](https://ci-compass.org/about/nsf-major-facilities/) to accelerate the data lifecycle and ensure the integrity and effectiveness of the cyberinfrastructure upon which research and discovery depend. The vision is to be the leader in supporting and enhancing the national CI ecosystem — people, practical knowledge, and processes — to facilitate knowledge sharing and discovery across NSF's Major Facilities."
+tags = ["Cyberinfrastructure", "Data lifecycle", "Center of Excellence"]
+
+[[project]]
+name = "SWARM"
+title = "Scientific Workflow Applications on Resilient Metasystem"
+status = "current"
+role = "Co-Principal Investigator"
+funder = "Department of Energy"
+award = "DE-SC0024351"
+years = "2023–2028"
+website = "https://swarm-workflows.org/"
+summary = "Explores how distributed intelligence — specifically swarm intelligence — can provide robust, performant, resilient, and fault-tolerant execution of DOE scientific workflows spanning a continuum of resources, from edge devices near sensors and instruments, through wide-area networks, to leadership-class systems. The goal is an SI-based resilient Integrated Research Infrastructure (IRI) that recovers quickly from failures, adapts to change, maximizes resource utilization, and optimizes workflow execution time."
+tags = ["Swarm intelligence", "Resilience", "Workflows"]
+
+[[project]]
+name = "CITEAM"
+title = "Cyberinfrastructure Training and Education for Leveraging Advanced Electron Microscopy in Materials Science"
+status = "current"
+role = "Principal Investigator"
+funder = "National Science Foundation"
+award = "2519465"
+award_url = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2519465"
+years = "2025–2028"
+website = "https://citeamcourse.org/"
+summary = "Develops a cyberinfrastructure training program for materials scientists who rely on advanced microscopes such as transmission electron microscopes (TEM) and need to process and manage large data volumes. The program is anchored on a new aberration-corrected TEM/STEM at the University of Maryland. Topics include TEM instrument software, image analysis, scientific computing, AI for TEM image and data analysis, diffraction and spectroscopy data analysis, distributed computing for microscope data, and data curation and FAIR. A \"train the trainers\" element prepares research facilitators and lab staff scientists to guide others."
+tags = ["Training", "Electron microscopy", "Materials science"]
+
+[[project]]
+name = "REU Site: FABRIC"
+title = "REU Site: Exploring the FABRIC Research Instrument to Catalyze Multi-disciplinary Research in Networks, Distributed Systems, and Emerging CI Applications"
+status = "current"
+role = "Principal Investigator"
+funder = "National Science Foundation"
+award = "2447441"
+award_url = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2447441"
+years = "2025–2028"
+website = "https://reusite.renci.org/"
+overview = "https://renci.org/blog/renci-hosts-inaugural-reu-site/"
+summary = "A summer Research Experiences for Undergraduates program hosted at RENCI that uses the NSF [FABRIC](https://fabric-testbed.net/) testbed to give students immersive, hands-on research in networking, distributed systems, cybersecurity, and AI applications. A core curriculum in networking, programming, systems, and cyberinfrastructure leads into a mentored research phase on topics such as federated learning, in-band network telemetry, P4/FPGA network security, and congestion control. The program aims to broaden participation, including students from less-resourced institutions."
+tags = ["Undergraduate research", "FABRIC", "Workforce"]
+
+[[project]]
+name = "ORION"
+title = "Collaborative Research: Cross-Cutting Improvements: Open Science Roadmap for Research Infrastructures"
+status = "current"
+role = "Principal Investigator (UNC)"
+funder = "National Science Foundation"
+award = "2531701"
+award_url = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2531701"
+years = "2025–2028"
+summary = "Studies data management practices at selected NSF Major and mid-scale facilities to create a roadmap, aligned with the FAIR principles, that facilities can use to improve how research data is organized, stored, and shared. Surveys of facility personnel and users cover data provenance, transfer, packaging, storage, enrichment, and deposit for dissemination and citation. The roadmap will be refined through community workshops and evaluated with hands-on pilots at the surveyed facilities. Collaborators are the University of Notre Dame (lead), USC/ISI, RENCI, and Indiana University."
+tags = ["Open science", "FAIR data", "Research infrastructure"]
+
+[[project]]
+name = "FlyNet"
+title = "An 'On-the-fly' Deeply Programmable End-to-end Network-Centric Platform for Edge-to-Core Workflows"
+status = "current"
+role = "Co-Principal Investigator"
+funder = "National Science Foundation"
+award = "2018074"
+award_url = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2018074"
+years = "2020–2022"
+website = "http://flynet-ci.org/"
+overview = "https://dl.acm.org/doi/10.1145/3468737.3494098"
+summary = "Provides an architecture and tools that let scientists include edge computing devices in their computational workflows — critical for low-latency applications like drone video analytics and drone route planning. FlyNet integrates cutting-edge network and compute infrastructure with in-network processing through new programming abstractions, leveraging the Pegasus Workflow Management System."
+tags = ["Edge computing", "Drones", "Programmable networks"]
+
+[[project]]
+name = "X-CITE"
+title = "CyberInfrastructure Training and Education for Synchrotron X-Ray Science"
+status = "previous"
+role = "Principal Investigator"
+funder = "National Science Foundation"
+award = "2320373"
+award_url = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2320373"
+years = "2023–2026"
+website = "https://sites.google.com/view/x-cite-nsf/home"
+summary = "Develops an innovative cyberinfrastructure training program for scientists using the CHESS synchrotron X-ray facility, who conduct research in materials science, physics, chemistry, biology, environmental science and more. Training spans five themes — programming essentials, systems fundamentals, distributed computing with the CI ecosystem, X-ray science software, and data curation and FAIR — delivered through self-paced notebooks, videos, CI catalogs, office hours, in-person sessions, CHESS user workshops, and tutorials at domain conferences."
+tags = ["Training", "X-ray science", "CHESS"]
+
+[[project]]
+name = "PosEiDon"
+title = "Platform for Explainable Distributed Infrastructure"
+status = "previous"
+role = "Co-Principal Investigator"
+funder = "Department of Energy"
+award = "DE-SC0022328"
+years = "2021–2024"
+website = "https://sites.google.com/view/poseidon-workflows/home"
+summary = "Advances how simulation and machine learning can be harnessed to improve DOE's computational and data science. PosEiDon provides an integrated platform that helps facility operators and scientists improve end-to-end science workflows by (1) predicting the performance of complex workflows; (2) detecting and classifying infrastructure and workflow anomalies and explaining their sources; and (3) suggesting performance optimizations."
+tags = ["Machine learning", "Anomaly detection", "Explainability"]
+
+[[project]]
+name = "DyNamo"
+title = "Delivering a Dynamic Network-Centric Platform for Data-Driven Science"
+status = "previous"
+role = "Principal Investigator"
+funder = "National Science Foundation"
+award = "1826997"
+award_url = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1826997"
+years = "2018–2021"
+website = "https://sites.google.com/view/dynamo-nsf/"
+overview = "https://drive.google.com/file/d/1ZuB3THwaKIlufVn-8RAO7MyG9tYbLgLc/view?usp=sharing"
+summary = "An NSF CC* Integration project developing a network-centric platform for high-performance, adaptive data flows and coordinated access to multi-campus cyberinfrastructure and community data repositories for observational scientists in adaptive weather sensing and ocean sciences."
+tags = ["Networking", "Weather", "Ocean science"]
+
+[[project]]
+name = "CI CoE Pilot"
+title = "Pilot Study for a Cyberinfrastructure Center of Excellence"
+status = "previous"
+role = "Co-Principal Investigator"
+funder = "National Science Foundation"
+award = "1842042"
+award_url = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1842042"
+years = "2018–2021"
+website = "https://cicoe-pilot.org/"
+overview = "https://drive.google.com/file/d/15Y3OJjChmp0eyJOn1EWARDVknDjYQIvN/view?usp=sharing"
+summary = "Developed a model for a Cyberinfrastructure Center of Excellence that facilitates community building and knowledge sharing, and applies best practices and innovative solutions for NSF Large Facility CI — providing leadership, expertise, and active support to CI practitioners at NSF Major Facilities."
+tags = ["Cyberinfrastructure", "Center of Excellence"]
+
+[[project]]
+name = "IRIS"
+title = "CICI: Integrity Introspection for Scientific Workflows"
+status = "previous"
+role = "Principal Investigator"
+funder = "National Science Foundation"
+award = "1839900"
+award_url = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1839900"
+years = "2018–2022"
+website = "https://sites.google.com/view/iris-nsf/"
+overview = "https://drive.google.com/file/d/1-2yQTRg8R2C9mBobJE0RbYkgMsZMTbM-/view?usp=sharing"
+summary = "Automatically detects, diagnoses, and pinpoints the source of unintentional integrity anomalies in scientific workflows executing on distributed CI, using a threat model and an integrity analysis framework that collects workflow and infrastructure data and applies machine learning."
+tags = ["Integrity", "Security", "Machine learning"]
+
+[[project]]
+name = "Panorama 360"
+title = "Performance data capture and analysis for end-to-end scientific workflows"
+status = "previous"
+role = "Co-Principal Investigator"
+funder = "Department of Energy"
+award = "DE-SC0012636M"
+years = "2017–2021"
+website = "https://panorama360.github.io/"
+overview = "https://drive.google.com/file/d/1P5geqkXswRSF5wJVL5X2JTAKX_GzyAex/view?usp=sharing"
+summary = "Provides a resource for the collection, analysis, and sharing of performance data about end-to-end scientific workflows executing on Department of Energy facilities."
+tags = ["Performance", "Workflows", "DOE facilities"]
+
+[[project]]
+name = "ExoGENI"
+title = "Networked cloud testbed for GENI"
+status = "previous"
+role = "Senior Personnel"
+funder = "GENI initiative, National Science Foundation"
+website = "http://www.exogeni.net"
+overview = "https://drive.google.com/file/d/1Wfz0WDZ8IUNjJ4FqoK4kLv-Oe39r1Plr/view?usp=sharing"
+summary = "A networked cloud testbed linking [GENI](http://www.geni.net) to open cloud computing (OpenStack) and dynamic circuit fabrics. ExoGENI orchestrates a federation of independent cloud sites across the US and circuit providers such as Internet2 and ESnet through their native IaaS APIs — in effect a widely distributed networked infrastructure-as-a-service (NIaaS) platform for experimentation and computation."
+tags = ["Testbeds", "Networked clouds", "IaaS"]
+
+[[project]]
+name = "SWIP"
+title = "Scientific Workflow Integrity with Pegasus"
+status = "previous"
+role = "Senior Personnel"
+funder = "National Science Foundation"
+award = "1642053"
+award_url = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1642053"
+website = "http://nrig.renci.org/project/cici-secure-and-resilient-architecture-scientific-workflow-integrity-with-pegasus-swip/"
+overview = "https://drive.google.com/file/d/1mMrR0P5a5bILfI0WuPyDOVJ-9_G5qd3u/view?usp=sharing"
+summary = "Strengthened cybersecurity controls in the Pegasus Workflow Management System to provide assurances about the integrity of computational scientific methods — increasing trust in computational science and the ability to reproduce it, by letting scientists validate that data has not changed since a workflow completed and that results from multiple workflows are consistent."
+tags = ["Integrity", "Pegasus", "Reproducibility"]
+
+[[project]]
+name = "ADAMANT"
+title = "Transforming Computational Science with ADAMANT (Adaptive Data-aware Multi-domain Application Network Topologies)"
+status = "previous"
+role = "Technical Lead and Senior Personnel"
+funder = "National Science Foundation"
+award = "1245926"
+award_url = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1245926"
+overview = "https://drive.google.com/file/d/1qD8Porz3K3za84B2-APUckxKgpCElg1N/view?usp=sharing"
+summary = "Enabled computational workflow-driven science on multi-domain IaaS by integrating ORCA resource provisioning with Pegasus WMS — letting workflows provision compute, storage, and network resources as needed through application-specific topology embedding, with pre-planned data movement over engineered dynamic connections between domains."
+tags = ["Provisioning", "Pegasus", "Multi-domain IaaS"]

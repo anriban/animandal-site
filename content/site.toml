@@ -1,0 +1,101 @@
+# Site-wide settings and your profile.
+#
+# Text fields accept a little Markdown: [link text](https://...), **bold**, *italic*.
+
+[site]
+title = "Anirban Mandal"
+description = "Anirban Mandal, Ph.D. — Director, Network Research & Infrastructure Group (NRIG), RENCI, UNC Chapel Hill. Research in distributed systems, cloud computing, networking and scientific workflows."
+url = "https://www.animandal.com"        # used for canonical links / social previews
+# Name variants that get bolded in publication author lists
+highlight_author = ["A. Mandal", "Anirban Mandal", "Mandal, A.", "Mandal A"]
+# How many items to show on the home page
+home_news_count = 6
+home_projects_count = 6
+
+[profile]
+name = "Anirban Mandal"
+honorific = "Ph.D."
+role = "Director, Network Research & Infrastructure Group (NRIG)"
+organization = "Renaissance Computing Institute (RENCI), University of North Carolina at Chapel Hill"
+# Put your photo at assets/images/profile.jpg (square, ~600x600 works best).
+# If the file is missing, the site shows your initials instead.
+photo = "assets/images/profile.jpg"
+email = "anirban@renci.org"
+# Link from the image on your current home page (Google Drive). Rename the label if it is not your CV.
+cv_url = "https://drive.google.com/file/d/1XHfx2hOhocCa7zygwPSm2ZpaudF4U0nO/view?usp=sharing"
+cv_label = "CV"
+
+# Paragraphs of the "About" section on the home page
+bio = [
+  "I serve as the Director for the [Network Research and Infrastructure Group (NRIG)](http://nrig.renci.org) at the [Renaissance Computing Institute (RENCI)](https://renci.org) at the [University of North Carolina at Chapel Hill](https://www.unc.edu). I am a computer systems researcher whose work sits at the intersection of distributed systems and scientific computing. At RENCI, I lead several efforts in cyberinfrastructure research in support of science.",
+  "My research interests lie in distributed systems, cloud computing, networking, and data-driven scientific workflows. I have wide-ranging expertise in resource provisioning, scheduling, performance analysis, machine learning, and anomaly detection for large-scale scientific cyberinfrastructure, next-generation networks, and experimental testbeds. I also serve as the Associate Director for [CI Compass](https://ci-compass.org/), the NSF Cyberinfrastructure Center of Excellence serving NSF Major and Mid-scale Facilities.",
+]
+
+interests = [
+  "Distributed systems",
+  "Cloud & edge computing",
+  "Networking & testbeds",
+  "Scientific workflows",
+  "Resource provisioning & scheduling",
+  "Performance analysis",
+  "ML for anomaly detection",
+  "Cyberinfrastructure",
+  "Quantum networking",
+]
+
+[[profile.education]]
+degree = "Ph.D., Computer Science"
+school = "Rice University"
+url = "https://www.cs.rice.edu/"
+year = "2006"
+
+[[profile.education]]
+degree = "M.S., Computer Science"
+school = "Rice University"
+url = "https://www.cs.rice.edu/"
+year = "2002"
+
+[[profile.education]]
+degree = "B.Tech., Computer Science & Engineering"
+school = "Indian Institute of Technology Bombay"
+url = "https://www.cse.iitb.ac.in/"
+year = "2000"
+
+# Profile links shown as icons/buttons. icon is one of:
+# scholar, orcid, dblp, researchgate, linkedin, github, x, mastodon, bluesky, facebook, email, link
+[[links]]
+label = "Google Scholar"
+url = "https://scholar.google.com/citations?hl=en&user=lwdMUeQAAAAJ"
+icon = "scholar"
+
+[[links]]
+label = "ORCID"
+url = "https://orcid.org/0000-0001-5145-8618"
+icon = "orcid"
+
+[[links]]
+label = "DBLP"
+url = "https://dblp.uni-trier.de/pers/hd/m/Mandal:Anirban"
+icon = "dblp"
+
+[[links]]
+label = "ResearchGate"
+url = "https://www.researchgate.net/profile/Anirban_Mandal8"
+icon = "researchgate"
+
+[[links]]
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/anirban-mandal-1176801/"
+icon = "linkedin"
+
+# Uncomment to show Facebook as well (it was linked from the old site).
+# [[links]]
+# label = "Facebook"
+# url = "https://www.facebook.com/anirban.mandal"
+# icon = "facebook"
+
+[contact]
+address = "RENCI, 100 Europa Dr., Suite 540, Chapel Hill, NC 27517"
+email = "anirban@renci.org"
+phone = "713.443.1847"
+map_url = "https://maps.google.com/?q=100+Europa+Dr+Suite+540+Chapel+Hill+NC+27517"

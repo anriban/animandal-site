@@ -1,0 +1,70 @@
+# Short news items: the "News" feed on the home page and the News page.
+# Newest first. The site also sorts by date, so order here doesn't matter much.
+#
+# Fields:
+#   date   "YYYY-MM" or "YYYY-MM-DD"
+#   text   one or two sentences; Markdown links allowed
+#   kind   optional label: paper, grant, award, talk, service, people, media
+#
+# These starter items were written from your existing Awards and Publications pages.
+# Edit or delete them as you like. The dates on the 2026 paper items are approximate.
+
+[[item]]
+date = "2026-10"
+kind = "paper"
+text = "Three papers accepted at **WORKS '26**, the 21st Workshop on Workflows in Support of Large-Scale Science at SC'26 in Chicago, covering AI-assisted workflow management, decentralized scheduling, and LLM gating for multi-agent HPC scheduling."
+
+[[item]]
+date = "2026-09"
+kind = "paper"
+text = "Two papers accepted at **IEEE eScience 2026** in Naples, Italy: *SWARM+* and *AI-Assisted Computational Reproducibility on the FABRIC Testbed*."
+
+[[item]]
+date = "2026-08"
+kind = "people"
+text = "RENCI hosted the inaugural cohort of our NSF [REU Site](https://reusite.renci.org/): eight undergraduates spent the summer on networking, cybersecurity, and AI research using the FABRIC testbed ([RENCI News](https://renci.org/blog/renci-hosts-inaugural-reu-site/))."
+
+[[item]]
+date = "2026-07"
+kind = "paper"
+text = "*Kiso: A Foundation for Complex, Agentic, and Reproducible Experiments* is out in [Frontiers in Complex Systems](https://doi.org/10.3389/fcpxs.2026.1800335)."
+
+[[item]]
+date = "2025-10"
+kind = "grant"
+text = "New NSF OAC award: **ORION**, *Open Science Roadmap for Research Infrastructures*, a collaboration led by the University of Notre Dame with USC/ISI, RENCI and Indiana University."
+
+[[item]]
+date = "2025-08"
+kind = "grant"
+text = "New NSF [REU Site](https://reusite.renci.org/) that uses the FABRIC research instrument to catalyze multi-disciplinary research in networks, distributed systems, and emerging CI applications."
+
+[[item]]
+date = "2025-07"
+kind = "grant"
+text = "New NSF CyberTraining award, led by RENCI: [CITEAM](https://citeamcourse.org/), CI training and education in advanced electron microscopy for materials science."
+
+[[item]]
+date = "2025-06"
+kind = "grant"
+text = "New $5M NSF CSSI Frameworks award to build [PegasusAI](https://pegasusai.io/), which applies AI advances to the next generation of workflow management, with USC/ISI, UT Knoxville and UMass Amherst ([RENCI News](https://renci.org/news/universities-unite-to-advance-ai-driven-workflow-management-on-modern-cyberinfrastructure/))."
+
+[[item]]
+date = "2023-11"
+kind = "award"
+text = "**Best Paper Award** at the INDIS Workshop at SC'23 for *Elephants Sharing the Highway: Studying TCP Fairness in Large Transfers over High Throughput Links*."
+
+[[item]]
+date = "2023-11"
+kind = "grant"
+text = "DOE ASCR funds the **SWARM** project on distributed intelligence for resilient scientific workflows ([RENCI News](https://renci.org/news/exploring-the-power-of-distributed-intelligence-for-resilient-scientific-workflows/))."
+
+[[item]]
+date = "2023-09"
+kind = "grant"
+text = "**X-CITE** begins: an NSF CyberTraining program for synchrotron X-ray scientists at CHESS, led by RENCI ([HPCwire](https://www.hpcwire.com/off-the-wire/renci-awarded-nsf-grant-to-develop-cyberinfrastructure-training-program-for-x-ray-scientists/))."
+
+[[item]]
+date = "2022-05"
+kind = "award"
+text = "**Best Paper Award** at Cloud2Things 2022 for *Automating Edge-to-cloud Workflows for Science*."

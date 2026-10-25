@@ -1,0 +1,891 @@
+# Publications
+#
+# One [[publication]] block per paper. Newest first is conventional but not required:
+# the site sorts by year (newest first) and keeps file order within a year.
+#
+# Fields:
+#   year     (required) number, e.g. 2026
+#   title    (required)
+#   authors  (required) your name is bolded automatically
+#   venue    (required) journal / conference / workshop, place, month
+#   type     one of: journal, conference, workshop, chapter, preprint, report, poster, thesis
+#   url      link to the paper (DOI preferred); leave "" if none yet
+#   pdf      optional direct PDF link
+#   status   optional, e.g. "to appear" or "under review"
+#   award    optional, e.g. "Best Paper Award"
+#   selected optional, true = also shown under "Selected publications" on the home page
+
+[[publication]]
+year = 2026
+title = "Complexity and Scale in AI-Assisted Workflow Management: A Federated Learning Case Study"
+authors = "K. Thareja, H. Safri, R. Mayani, A. Mandal, and E. Deelman"
+venue = "SC'26-W Proceedings of the 21st Workshop on Workflows in Support of Large-Scale Science (WORKS '26), Chicago, IL, November 2026"
+type = "workshop"
+url = ""
+status = "to appear"
+
+[[publication]]
+year = 2026
+title = "Decentralized Scheduling of Scientific Workflows"
+authors = "X. Casas Moreno, K. Thareja, A. Mandal, E. Deelman, R. Badia, and F. Lordan"
+venue = "SC'26-W Proceedings of the 21st Workshop on Workflows in Support of Large-Scale Science (WORKS '26), Chicago, IL, November 2026"
+type = "workshop"
+url = ""
+status = "to appear"
+
+[[publication]]
+year = 2026
+title = "RLSA: Adaptive LLM Gating for Multi-Agent HPC Scheduling Agents"
+authors = "H. Jin, K. Raghavan, A. Mandal, and E. Deelman"
+venue = "SC'26-W Proceedings of the 21st Workshop on Workflows in Support of Large-Scale Science (WORKS '26), Chicago, IL, November 2026"
+type = "workshop"
+url = ""
+status = "to appear"
+
+[[publication]]
+year = 2026
+title = "SWARM+: Scalable and Resilient Multi-Agent Consensus for Decentralized Data-Aware Workload Management"
+authors = "K. Thareja, K. Raghavan, H. Safri, A. Mandal, and E. Deelman"
+venue = "22nd IEEE International Conference on eScience (eScience), Naples, Italy, September 2026"
+type = "conference"
+url = ""
+status = "to appear"
+selected = true
+
+[[publication]]
+year = 2026
+title = "AI-Assisted Computational Reproducibility on the FABRIC Testbed"
+authors = "K. Thareja, P. Ruth, B. Aldikacti, A. Mandal, and M. Zink"
+venue = "22nd IEEE International Conference on eScience (eScience), Naples, Italy, September 2026"
+type = "conference"
+url = ""
+status = "to appear"
+selected = true
+
+[[publication]]
+year = 2026
+title = "Kiso: A Foundation for Complex, Agentic, and Reproducible Experiments"
+authors = "R. Mayani, K. Vahi, M. Rynge, K. Thareja, X. Casas-Moreno, H. Jin, A. Mandal, F. Lordan, K. Raghavan, R. M. Badia, and E. Deelman"
+venue = "Frontier Complex Systems, 4:1800335. doi: 10.3389/fcpxs.2026.1800335, July 2026"
+type = "journal"
+url = "https://doi.org/10.3389/fcpxs.2026.1800335"
+selected = true
+
+[[publication]]
+year = 2026
+title = "AeroResQ: Edge-accelerated UAV framework for scalable, resilient and collaborative escape route planning in wildfire scenarios"
+authors = "Suman Raj, Radhika Mittal, Rajiv Mayani, Pawel Zuk, Anirban Mandal, Michael Zink, Yogesh Simmhan, and Ewa Deelman"
+venue = "Future Generation Computer Systems, Volume 183, 2026, 108579, ISSN 0167-739X, https://doi.org/10.1016/j.future.2026.108579, May 2026"
+type = "journal"
+url = "https://doi.org/10.1016/j.future.2026.108579"
+selected = true
+
+[[publication]]
+year = 2026
+title = "From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications"
+authors = "K. Thareja, A. Mandal, and E. Deelman"
+venue = "POSTER Paper in 22nd IEEE International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT 2026), Reykjavik, Iceland, June 2026"
+type = "poster"
+url = ""
+
+[[publication]]
+year = 2026
+title = "Decentralized Coordination of Autonomous Agents in the Compute Continuum Using Consensus"
+authors = "Casas-Moreno X, Thareja K, de Juan Vela P, Mayani R, Fanals-i-Batllori J, Mandal A, Deelman E, Badia RM, and Lordan F"
+venue = "Frontier Complex Systems, 4:1800101. doi: 10.3389/fcpxs.2026.1800101, April 2026"
+type = "journal"
+url = "https://www.frontiersin.org/journals/complex-systems/articles/10.3389/fcpxs.2026.1800101/full"
+
+[[publication]]
+year = 2026
+title = "Validating TCP Behavior in DISTRI: A Comparison of Simulated and Real-World Network Performance for Distributed Computing"
+authors = "I. Mahmud, K. Wu, A. Sim, A. Mandal, and E. Deelman"
+venue = "2026 International Conference on Computing, Networking and Communications (ICNC), Feb 2026"
+type = "conference"
+url = "https://ieeexplore.ieee.org/document/11416891"
+
+[[publication]]
+year = 2026
+title = "BBRv3 Startup Behavior: Analysis and Fairness Enhancements"
+authors = "I. Mahmud, K. Wu, A. Sim, A. Mandal, and E. Deelman"
+venue = "2026 International Conference on Computing, Networking and Communications (ICNC), 716-722. 10.1109/ICNC68183.2026.11416923. Feb 2026"
+type = "conference"
+url = "https://ieeexplore.ieee.org/abstract/document/11416923"
+
+[[publication]]
+year = 2025
+title = "Ship-to-Shore Network Monitoring: The Research Vessel Sikuliaq Experience"
+authors = "K. Thareja, A. Mandal, J. Race, P. Ruth, C. Romsos, and E. Deelman"
+venue = "IEEE Internet Computing, vol. 29, no. 4, pp. 77-84, doi: 10.1109/MIC.2025.3615849 Aug 2025"
+type = "journal"
+url = "https://ieeexplore.ieee.org/document/11326679"
+selected = true
+
+[[publication]]
+year = 2025
+title = "AeroResQ: Edge-Accelerated UAV Framework for Scalable, Resilient and Collaborative Escape Route Planning in Wildfire Scenarios"
+authors = "S. Raj, R. Mittal, R. Mayani, P. Zuk, A. Mandal, M. Zink, Y. Simmhan, and E. Deelman"
+venue = "arXiv, https://doi.org/10.48550/arXiv.2511.00038, Oct 2025"
+type = "preprint"
+url = "https://doi.org/10.48550/arXiv.2511.00038"
+
+[[publication]]
+year = 2025
+title = "CyberInfrastructure Training and Education for Synchrotron X-Ray Science (X-CITE)"
+authors = "A. Mandal, M. Miller, E. Deelman, E. Scott, K. Vahi, W. Sun, P. Ko, K. Nygren, K. Soloway, R. Verberg, V. Kuznetsov, and B. Sorge"
+venue = "Poster at 2025 NSF Cybertraining PI Meeting, Denver, CO, July 2025"
+type = "poster"
+url = "https://figshare.com/articles/poster/CyberInfrastructure_Training_and_Education_for_Synchrotron_X-Ray_Science_X-CITE_/29586023?file=56329868"
+
+[[publication]]
+year = 2025
+title = "2025 U.S. NSF CI Compass Virtual Workshop Report - Data Management: From Instrument to First Storage"
+authors = "Mandal, A., Bayer, F., Biffard, B., Bontempi, C., Butcher, D. S., Casey, R., Clark, C., Cox, D., Deelman, E., Glatstein, J., Habermann, T., Kee, K., Laney, C., Murillo, A., Nabrzyski, J., O’Mullane, W., Riedel, B., Rollins, J., Tawa, R., Virdone, N., & Zhang, Q."
+venue = "doi:10.5281/zenodo.15858297, July 20, 2025"
+type = "report"
+url = "https://zenodo.org/records/15858297"
+
+[[publication]]
+year = 2025
+title = "A Greedy Consensus-based Approach to Distributed Job Selection: Toward Fully-decentralized Workload Management System"
+authors = "K. Thareja, K. Raghavan, A. Mandal, P. Zuk, I. Mahmud, M. Kiran, and E. Deelman"
+venue = "2025 25th IEEE International Symposium on Cluster, Cloud and Internet Computing (CCGrid'25), Tromso, Norway, May 2025"
+type = "conference"
+url = "https://www.computer.org/csdl/proceedings-article/ccgrid/2025/093400a063/27Y6HmRghc4"
+selected = true
+
+[[publication]]
+year = 2025
+title = "SWARM: Reimagining Scientific Workflow Management Systems in a Distributed World"
+authors = "P. Balaprakash, K. Raghavan, F. Cappello, E. Deelman, A. Mandal, H. Jin, I. Mahmud, K. Thareja, S. Wu, P. Zuk, M. Kiran, Z. Chen, S. Di, and K. Wu"
+venue = "International Journal of High Performance Computing Applications (IJHPCA), 2025;39(5):692-712. doi:10.1177/10943420251339317, May 2025"
+type = "journal"
+url = "https://journals.sagepub.com/doi/10.1177/10943420251339317"
+selected = true
+
+[[publication]]
+year = 2025
+title = "Advancing Anomaly Detection in Computational Workflows with Active Learning"
+authors = "K. Raghavan, G. Papadimitriou, H. Jin, A. Mandal, M. Kiran, P. Balaprakash, and E. Deelman"
+venue = "Future Generation Computer Systems Journal, Volume 166, May 2025"
+type = "journal"
+url = "https://www.sciencedirect.com/science/article/abs/pii/S0167739X24005727?via%3Dihub"
+
+[[publication]]
+year = 2025
+title = "Shaping the Future of Self-Driving Autonomous Laboratories Workshop"
+authors = "R. Ferreira da Silva, R. G. Moore, B. Mintz, R. Advincula, A. Al Najjar, L. Baldwin, C. Bridges, R. Coffee, E. Deelman, C. Engelmann, B. D. Etz, M. Firestone, I. T. Foster, P. Ganesh, L. Hamilton, D. Huber, I. Ivanov, S. Jha, Y. Li, Y. Liu, J. Lofstead, A. Mandal, H. G. Martin, T. Mayer, M. McDonnell, V. Murugesan, S. Nimer, N. Rao, M. Seifrid, M. Taheri, M. Taufer, and K. D. Vogiatzis"
+venue = "Technical Report, ORNL/TM-2024/3714, DOI: 10.5281/ZENODO.14588062, January 2025"
+type = "report"
+url = "https://zenodo.org/records/14430233"
+
+[[publication]]
+year = 2024
+title = "DISTRI: Development and Integration of Simulation Tools for Resilient Infrastructure"
+authors = "I. Mahmud, P. Zuk, C. Wang, M. Kiran, K. Wu, K. Thareja, K. Raghavan, A. Mandal, and E. Deelman"
+venue = "2024 IEEE International Conference on Big Data workshop: 5th International Workshop on Big Data & AI Tools, Models, and Use Cases for Innovative Scientific Discovery (BTSD) 2024, Washington, DC, December 2024"
+type = "workshop"
+url = "https://ieeexplore.ieee.org/document/10825783"
+
+[[publication]]
+year = 2024
+title = "SWARM: Scientific Workflow Applications on Resilient Metasystem"
+authors = "E. Deelman, P. Balaprakash, M. Kiran, A. Mandal, K. Raghavan, S. Di, F. Cappello, J. Wu, Z. Chen, S. Wu, H. Jin, C. Wang, I. Mahmud, K. Thareja, E. Scott, P. Zuk, and A. Hamade"
+venue = "Poster in 2024 IEEE/ACM International Conference for High Performance Computing, Networking, Storage, and Analysis (SC'24), Atlanta, GA, November 2024"
+type = "poster"
+url = "https://sc24.supercomputing.org/proceedings/poster/poster_pages/post169.html"
+
+[[publication]]
+year = 2024
+title = "Large Language Models for Anomaly Detection in Computational Workflows: from Supervised Fine-Tuning to In-Context Learning"
+authors = "H. Jin, G. Papadimitriou, K. Raghavan, P. Zuk, P. Balaprakash, C. Wang, A. Mandal, and E. Deelman"
+venue = "2024 IEEE/ACM International Conference for High Performance Computing, Networking, Storage, and Analysis (SC'24), Atlanta, GA, November 2024"
+type = "conference"
+url = "https://www.computer.org/csdl/proceedings-article/sc/2024/529100b466/21HUWxqj7Da"
+selected = true
+
+[[publication]]
+year = 2024
+title = "CyberInfrastructure Training and Education for Synchrotron X-Ray Science (X-CITE)"
+authors = "A. Mandal, M. Miller, E. Deelman, E. Scott, S. Sasidharan, K. Vahi, W. Sun, P. Ko, K. Nygren, K. Soloway, R. Verberg, and B. Sorge"
+venue = "Poster at 2024 NSF Cybertraining PI Meeting, Charlotte, NC, August 2024"
+type = "poster"
+url = "http://dx.doi.org/10.6084/m9.figshare.26487595"
+
+[[publication]]
+year = 2024
+title = "2024 Cyberinfrastructure for U.S. NSF Major Facilities Workshop Report (1.0)"
+authors = "I. Baldin, D. Brower, D. Butcher, R. Casey, C. Clark, E. Deelman, B. Flynn, M. Hasan, K. Kee, M. Livny, A. Mandal, A. Murillo, J. Nabrzyski, V. Pascucci, S. Petruzza, C. Romsos, D. Stanzione, K. Vahi, and N. Virdone"
+venue = "Zenodo, June 2024"
+type = "report"
+url = "https://doi.org/10.5281/zenodo.11372561"
+
+[[publication]]
+year = 2024
+title = "Network Testbed for Experimenting With Decentralized Federated Learning"
+authors = "A. Mandal, K. Thareja, and P. Ruth"
+venue = "POSTER Paper in 20th IEEE International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT 2024), Abu Dhabi, UAE, April 2024"
+type = "poster"
+url = "https://doi.ieeecomputersociety.org/10.1109/DCOSS-IoT61029.2024.00119"
+
+[[publication]]
+year = 2023
+title = "Elephants Sharing the Highway: Studying TCP Fairness in Large Transfers over High Throughput Links"
+authors = "I. Mahmud, G. Papadimitriou, C. Wang, M. Kiran, A. Mandal, and E. Deelman"
+venue = "2023 IEEE/ACM Innovating the Network for Data-Intensive Science (INDIS) Workshop at SC'23, doi: https://doi.org/10.1145/3624062.3624594, Denver, CO, Nov 2023"
+type = "workshop"
+url = "https://dl.acm.org/doi/10.1145/3624062.3624594"
+award = "Best Paper Award, INDIS Workshop at SC'23"
+
+[[publication]]
+year = 2023
+title = "Experimenting TCP Performance with Fabric"
+authors = "I. Mahmud, G. Papadimitriou, C. Wang, M. Kiran, A. Mandal, and E. Deelman"
+venue = "2023 IEEE/ACM Innovating the Network for Data-Intensive Science (INDIS) Workshop at SC'23, Denver, CO, Nov 2023"
+type = "workshop"
+url = "https://www.delaat.net/sc/sc23/indis/T4-1-SC23-demo-presentation-TCP_Experiements.pdf"
+
+[[publication]]
+year = 2023
+title = "FlyPaw: Optimized Route Planning for Scientific UAV Missions"
+authors = "A. Grote, E. Lyons, K. Thareja, G. Papadimitriou, E. Deelman, A. Mandal, P. Calyam, and M. Zink"
+venue = "19th IEEE International Conference on eScience (eScience), doi: 10.1109/e-Science58273.2023.10254831, Limassol, Cyprus, Oct 2023"
+type = "conference"
+url = "https://www.computer.org/csdl/proceedings-article/e-science/2023/10254831/1QJgnvxvT4Q"
+
+[[publication]]
+year = 2023
+title = "Broadening Student Engagement To Build the Next Generation of Cyberinfrastructure Professionals"
+authors = "A. P. Murillo, D. Brower, S. Hossain, K. Kee, A. Mandal, J. Nabrzyski, E. Scott, N. Virdone, R. Ewing, and E. Deelman"
+venue = "Poster in Practice and Experience in Advanced Research Computing (PEARC 2023) Conference, Portland, OR, doi: 10.1145/3569951.3597567, July 2023"
+type = "poster"
+url = "https://doi.org/10.1145/3569951.3597567"
+
+[[publication]]
+year = 2023
+title = "Flow-Bench: A Dataset for Computational Workflow Anomaly Detection"
+authors = "G. Papadimitriou, H. Jin, C. Wang, K. Raghavan, A. Mandal, P. Balaprakash, E. Deelman"
+venue = "arXiv preprint arXiv:2306.09930, June 2023"
+type = "preprint"
+url = "https://arxiv.org/pdf/2306.09930"
+
+[[publication]]
+year = 2023
+title = "FlyNet: Drones on the Horizon"
+authors = "A. Morel, C. Qu, P. Calyam, C. Wang, K. Thareja, A. Mandal, E. Lyons, M. Zink, G. Papadimitriou, and E. Deelman"
+venue = "IEEE Internet Computing, vol. 27, no. 3, pp. 35-43, doi: 10.1109/MIC.2023.3260440, May-June 2023"
+type = "journal"
+url = "https://ieeexplore.ieee.org/document/10122650"
+selected = true
+
+[[publication]]
+year = 2023
+title = "Graph Neural Networks for Detecting Anomalies in Scientific Workflows"
+authors = "H. Jin, K. Raghavan, G. Papadimitriou, C. Wang, A. Mandal, M. Kiran, E. Deelman, and P. Balaprakash"
+venue = "The International Journal of High Performance Computing Applications, 2023;0(0). doi:10.1177/10943420231172140, May 2023"
+type = "journal"
+url = "https://journals.sagepub.com/doi/abs/10.1177/10943420231172140?journalCode=hpcc"
+
+[[publication]]
+year = 2023
+title = "Experiments on Network Services for Video Transmission using FABRIC Instrument Resources"
+authors = "A. E. Morel, P. Calyam, D. Gafurov, C. Wang, K. Thareja, A. Mandal, E. Lyons, M. Zink, G. Papadimitriou, and E. Deelman"
+venue = "Proceedings of the 10th International Workshop on Computer and Networking Experimental Research using Testbeds (CNERT) in conjunction with IEEE International Conference on Computer Communications (INFOCOM), doi:10.1109/INFOCOMWKSHPS57453.2023.10225817, New York, NY, May 2023"
+type = "workshop"
+url = "https://ieeexplore.ieee.org/document/10225817"
+award = "Best Paper Runner-Up, CNERT 2023"
+
+[[publication]]
+year = 2023
+title = "Dynamic Network-Centric Multi-cloud Platform for Real-Time and Data-Intensive Science Workflows"
+authors = "G. Papadimitriou, C. Wang, E. Lyons, K. Thareja, P. Ruth, J. J. Villalobos, I. Rodero, E. Deelman, M. Zink, and A. Mandal"
+venue = "in: Darema, F., Blasch, E.P., Ravela, S., Aved, A.J. (eds) Handbook of Dynamic Data Driven Applications Systems: Volume 2, Springer, pages 835-868, doi=10.1007/978-3-031-27986-7_32, March 2023"
+type = "chapter"
+url = "https://link.springer.com/chapter/10.1007/978-3-031-27986-7_32"
+
+[[publication]]
+year = 2023
+title = "Network Services Management using Programmable Data Planes for Visual Cloud Computing"
+authors = "A. E. Morel, P. Calyam, C. Qu, D. Gafurov, C. Wang, K. Thareja, A. Mandal, E. Lyons, M. Zink, G. Papadimitriou, and E. Deelman"
+venue = "Proceedings of the 2023 International Conference on Computing, Networking and Communications (ICNC): Next Generation Networks and Internet Applications (ICNC '23), Honolulu, HI, USA, doi:10.1109/ICNC57223.2023.10074183, February 2023"
+type = "conference"
+url = "https://ieeexplore.ieee.org/document/10074183"
+
+[[publication]]
+year = 2022
+title = "Workflow Anomaly Detection with Graph Neural Networks"
+authors = "H. Jin, K. Raghavan, G. Papadimitriou, C. Wang, A. Mandal, P. Krawczuk, L. Pottier, M. Kiran, E. Deelman, and P. Balaprakash"
+venue = "Proceedings of the 17th Workshop on Workflows in Support of Large-Scale Science (WORKS '22), Dallas, TX, November 2022"
+type = "workshop"
+url = "https://ieeexplore.ieee.org/document/10023943"
+
+[[publication]]
+year = 2022
+title = "Modeling Data Integrity Threats for Scientific Workflows Using OSCRP and MITRE ATT&CK"
+authors = "I. Abhinit, E. K. Adams, B. Chase, A. Mandal, Y. Xin, K. Vahi, M. Rynge, and E. Deelman"
+venue = "Lightning Talk Abstract at 17th Workshop on Workflows in Support of Large-Scale Science (WORKS '22), Dallas, TX, November 2022"
+type = "workshop"
+url = "https://scholarworks.iu.edu/dspace/handle/2022/28188"
+
+[[publication]]
+year = 2022
+title = "2022 Cyberinfrastructure for NSF Major Facilities Workshop Report"
+authors = "E. Deelman, I. Baldin, S. Barnet, G. B. Berriman, D. Brower, R. Casey, S. Chaudhry, L. Christopherson, C. Clark, B. Dobbins, M. Gohsman, K. Kee, M. Livny, A. Mandal, R. Mayani, A. Murillo, J. Nabrzyski, A. Olshansky, V. Pascucci, S. Petruzza, L. Pottier, C. Romsos, M. Rynge, E. Scott, A. Shepherd, J. Schopf, K. Vahi, C. Vardeman, N. Virdone, and J. West"
+venue = "Zenodo. https://doi.org/10.5281/zenodo.6643902, June 2022"
+type = "report"
+url = "https://doi.org/10.5281/zenodo.6643902"
+
+[[publication]]
+year = 2022
+title = "Graph Neural Network for Anomalies Detection in Scientific Workflows"
+authors = "L. Pottier, P. Balaprakash, G. Papadimitriou, M. Kiran, K. Raghavan, C. Wang, P. Krawczuk, K. Thareja, A. Mandal and E. Deelman"
+venue = "Poster and Short Paper in 2022 Workshop on Modeling & Simulation of Systems and Applications (MODSIM '22), Seattle, WA, August 2022"
+type = "poster"
+url = ""
+
+[[publication]]
+year = 2022
+title = "Automating Edge-to-cloud Workflows for Science: Traversing the Edge-to-cloud Continuum with Pegasus"
+authors = "R. Tanaka, G. Papadimitriou, S. Charan, C. Wang, E. Lyons, K. Thareja, C. Qu, A. Esquivel, E. Deelman, A. Mandal, P. Calyam, and M. Zink"
+venue = "2nd ACM/IEEE International workshop on Cloud-to-Things continuum: towards the convergence of IoT, Edge and Cloud Computing (Cloud2Things 2022), Taormina, Messina Italy, May 2022"
+type = "workshop"
+url = "https://ieeexplore.ieee.org/document/9825937"
+award = "Best Paper Award, Cloud2Things 2022"
+
+[[publication]]
+year = 2022
+title = "Novel Proposals for FAIR, Automated, Recommendable, and Robust Workflows"
+authors = "I. Abhinit, E. K. Adams, K. Alam, B. Chase, E. Deelman, L. Gorenstein, S. Hudson, T. Islam, J. Larson, G. Lentner, A. Mandal, J. -L. Navarro, B. Nicolae, L. Pouchard, R. Ross, B. Roy, M. Rynge, A. Serebrenik, K. Vahi, S. Wild, Y. Xin, R. F. da Silva, and R. Filgueira"
+venue = "Proceedings of the 17th Workshop on Workflows in Support of Large-Scale Science (WORKS '22), Dallas, TX, November 2022"
+type = "workshop"
+url = "https://ieeexplore.ieee.org/abstract/document/10023942"
+
+[[publication]]
+year = 2022
+title = "Data Integrity Error Localization in Networked Systems with Missing Data"
+authors = "Y. Xin, Shih-Wen Fu, A. Mandal, R. Tanaka, M. Rynge, K. Vahi, and E. Deelman"
+venue = "2022 IEEE International Conference on Communications (ICC '22), Seoul, South Korea, May 2022"
+type = "conference"
+url = "https://ieeexplore.ieee.org/document/9838996"
+
+[[publication]]
+year = 2021
+title = "Fair Sharing of Network Resources Among Workflow Ensembles"
+authors = "G. Papadimitriou, E. Lyons, C. Wang, K. Thareja, R. Tanaka, P. Ruth, I. Rodero, E. Deelman, M. Zink, and A. Mandal"
+venue = "Cluster Computing (2021) Journal, Springer. https://doi.org/10.1007/s10586-021-03457-3, November 2021"
+type = "journal"
+url = "https://link.springer.com/article/10.1007/s10586-021-03457-3"
+
+[[publication]]
+year = 2021
+title = "FlyNet: A Platform to Support Scientific Workflows from the Edge to the Core for UAV Applications"
+authors = "E. Lyons, S. Wang, K. Thareja, C. Qu, G. Papadimitriou, R. Tanaka, H. Saplakoglu, P. Calyam, E. Deelman, A. Mandal, and M. Zink"
+venue = "2021 IEEE/ACM 14th International Conference on Utility and Cloud Computing (UCC 2021), Leicester, UK, December 2021"
+type = "conference"
+url = "https://dl.acm.org/doi/10.1145/3468737.3494098"
+
+[[publication]]
+year = 2021
+title = "Root Cause Analysis of Data Integrity Errors in Networked Systems with Incomplete Information"
+authors = "Y. Xin, Shih-Wen Fu, A. Mandal, I. Baldin, R. Tanaka, M. Rynge, K. Vahi, E. Deelman, I. Abhinit and V. Welch"
+venue = "12th International Conference on Information and Communication Technology Convergence (ICTC 2021), Jeju Island, South Korea, October 2021"
+type = "conference"
+url = "https://ieeexplore.ieee.org/document/9621124"
+
+[[publication]]
+year = 2021
+title = "A Performance Characterization of Scientific Machine Learning Workflows"
+authors = "P. Krawczuk, G. Papadimitriou, R. Tanaka, Tu Mai Anh Do, S. Subramanya, S. Nagarkar, A. Jain, K. Lam, A. Mandal, L. Pottier, and E. Deelman"
+venue = "Proceedings of the 16th Workshop on Workflows in Support of Large-Scale Science (WORKS '21), St. Louis, MO, November 2021"
+type = "workshop"
+url = "https://ieeexplore.ieee.org/document/9652609"
+
+[[publication]]
+year = 2021
+title = "WIRE: Resource-efficient Scaling with Online Prediction for DAG-based Workflows"
+authors = "B. Xie, Q. Cao, M. Kunjir, L. Wan, J. Chase, A. Mandal, and M. Rynge"
+venue = "IEEE Cluster 2021 Conference (CLUSTER 2021), Virtual, pp. 35-46, doi: 10.1109/Cluster48925.2021.00025. September 2021"
+type = "conference"
+url = "https://ieeexplore.ieee.org/abstract/document/9556018"
+
+[[publication]]
+year = 2021
+title = "Anomaly Detection in Scientific Workflows using End-to-End Execution Gantt Charts and Convolutional Neural Networks"
+authors = "P. Krawczuk, G. Papadimitriou, S. Nagarkar, M. Kiran, A. Mandal, and E. Deelman"
+venue = "ACM Practice and Experience in Advanced Research Computing (PEARC 2021) Conference, doi: https://doi.org/10.1145/3437359.3465597, Virtual, July 2021"
+type = "conference"
+url = "https://dl.acm.org/doi/10.1145/3437359.3465597"
+
+[[publication]]
+year = 2021
+title = "Predicting Flash Floods in the Dallas-Fort Worth Metroplex Using Workflows and Cloud Computing"
+authors = "E. Lyons, D. Seo, S. Kim, H. Habibi, G. Papadimitriou, R. Tanaka, E. Deelman, M. Zink, and A. Mandal"
+venue = "IEEE eScience 2021 Poster, Virtual, pp. 259-261, doi: 10.1109/eScience51609.2021.00050. September 2021"
+type = "poster"
+url = "https://ieeexplore.ieee.org/document/9582328"
+
+[[publication]]
+year = 2021
+title = "Mining Workflows for Anomalous Data Transfers"
+authors = "H. Tu, G. Papadimitriou, M. Kiran, C. Wang, A. Mandal, E. Deelman, and T. Menzies"
+venue = "The 2021 Mining Software Repositories Conference, May 2021"
+type = "conference"
+url = "https://doi.ieeecomputersociety.org/10.1109/MSR52588.2021.00013"
+
+[[publication]]
+year = 2021
+title = "End-to-end online performance data capture and analysis for scientific workflows"
+authors = "G. Papadimitriou, C. Wang, K. Vahi, R. Silva, A. Mandal, Z. Liu, R. Mayani, M. Rynge, M. Kiran, V. Lynch, R. Kettimuthu, E. Deelman, J. Vetter, and I. Foster"
+venue = "Future Generation Computer Systems (FGCS) journal, Volume 117, Pages 387-400, April 2021"
+type = "journal"
+url = "https://www.sciencedirect.com/science/article/pii/S0167739X20330570"
+award = "Best Paper Award, Elsevier FGCS 2021"
+
+[[publication]]
+year = 2021
+title = "Blueprint: Cyberinfrastructure Center of Excellence"
+authors = "Deelman, E., Mandal, A., Murillo, A. P., Nabrzyski, J., Pascucci, V., Ricci, R., Baldin, I., Sons, S., Christopherson, L., Vardeman, C., Ferreira da Silva, R., Wyngaard, J., Petruzza, S., Rynge, M., Vahi, K., Whitcup, W. R., Drake, J., & Scott, E."
+venue = "Zenodo. https://doi.org/10.5281/zenodo.4587866, 2021"
+type = "report"
+url = "https://doi.org/10.5281/zenodo.4587866"
+
+[[publication]]
+year = 2020
+title = "Application Aware Software Defined Flows of Workflow Ensembles"
+authors = "G. Papadimitriou, E. Lyons, C. Wang, K. Thareja, R. Tanaka, P. Ruth, J. J. Villalobos, I. Rodero, E. Deelman, M. Zink, and A. Mandal"
+venue = "2020 IEEE/ACM Innovating the Network for Data-Intensive Science (INDIS), doi: 10.1109/INDIS51933.2020.00007, Nov 2020"
+type = "workshop"
+url = "https://doi.org/10.1109/indis51933.2020.00007"
+
+[[publication]]
+year = 2020
+title = "An On-Demand Weather Avoidance System for Small Aircraft Flight Path Routing"
+authors = "E. Lyons, D. Westbrook, A. Grote, G. Papadimitriou, K. Thareja, C. Wang, M. Zink, E. Deelman, A. Mandal, and P. Ruth"
+venue = "Darema F., Blasch E., Ravela S., Aved A. (eds) Dynamic Data Driven Applications Systems. DDDAS 2020. Lecture Notes in Computer Science, vol 12312. Springer, Cham. https://doi.org/10.1007/978-3-030-61725-7_36 Oct 2020"
+type = "conference"
+url = "https://doi.org/10.1007/978-3-030-61725-7_36"
+
+[[publication]]
+year = 2020
+title = "Identifying Execution Anomalies for Data Intensive Workflows Using Lightweight ML Techniques"
+authors = "C. Wang, G. Papadimitriou, M. Kiran, A. Mandal, and E. Deelman"
+venue = "2020 IEEE High Performance Extreme Computing Conference (HPEC 2020), doi: 10.1109/HPEC43674.2020.9286139, Sep 2020"
+type = "conference"
+url = "https://doi.org/10.1109/hpec43674.2020.9286139"
+
+[[publication]]
+year = 2020
+title = "Toward a Data Lifecycle Model for NSF Large Facilities"
+authors = "L. Christopherson, A. Mandal, E. Scott and I. Baldin"
+venue = "Practice and Experience in Advanced Research Computing (PEARC 2020) Conference, Portland, OR, doi: https://dl.acm.org/doi/abs/10.1145/3311790.3396636 July 2020"
+type = "conference"
+url = "https://dl.acm.org/doi/abs/10.1145/3311790.3396636"
+
+[[publication]]
+year = 2020
+title = "Detecting Anomalous Packets in Network Transfers: Investigations using PCA, Autoencoder and Isolation Forest in TCP"
+authors = "M. Kiran, C. Wang, G. Papadimitriou, A. Mandal, and E. Deelman"
+venue = "Machine Learning, vol 109, pages 1127–1143, 2020, https://doi.org/10.1007/s10994-020-05870-y, 2020"
+type = "journal"
+url = "https://doi.org/10.1007/s10994-020-05870-y"
+
+[[publication]]
+year = 2020
+title = "DyNamo: Scalable Weather Workflow Processing in the Academic MultiCloud"
+authors = "E. Lyons, M. Zink, A. Mandal, C. Wang, P. Ruth, C. Radhakrishnan, G. Papadimitriou, E. Deelman, K. Thareja, and I. Rodero"
+venue = "100th American Meteorological Society (AMS) Annual Meeting, Jan 2020"
+type = "conference"
+url = "https://ams.confex.com/ams/2020Annual/meetingapp.cgi/Paper/364480"
+
+[[publication]]
+year = 2019
+title = "The Role of Machine Learning in Scientific Workflows"
+authors = "E. Deelman, A. Mandal, M. Jiang, and R. Sakellariou"
+venue = "The International Journal of High Performance Computing Applications, Volume: 33 issue: 6, page(s): 1128-1139, 2019, doi: https://doi.org/10.1177/1094342019852127"
+type = "journal"
+url = "https://doi.org/10.1177/1094342019852127"
+
+[[publication]]
+year = 2019
+title = "Cyberinfrastructure Center of Excellence Pilot: Connecting Large Facilities Cyberinfrastructure"
+authors = "E. Deelman, A. Mandal, V. Pascucci, S. Sons, J. Wyngaard, C. F. Vardeman II, S. Petruzza, I. Baldin, L. Christopherson, R. Mitchell, L. Pottier, M. Rynge, E. Scott, K. Vahi, M. Kogank, J. A. Mann, T. Gulbransen, D. Allen, D. Barlow, S. Bonarrigo, C. Clark, L. Goldman, T. Goulden, P. Harvey, D. Hulsander, S. Jacob, C. Laney, I. Lobo-Padilla, J. Sampson, J. Staarmann, and S. Stone"
+venue = "15th International Conference on eScience (eScience), San Diego, CA, Sep 2019"
+type = "conference"
+url = "https://doi.org/10.1109/escience.2019.00058"
+
+[[publication]]
+year = 2019
+title = "Toward a Dynamic Network-centric Distributed Cloud Platform for Scientific Workflows: A Case Study for Adaptive Weather Sensing"
+authors = "E. Lyons, G. Papadimitriou, C. Wang, K. Thareja, P. Ruth, J. J. Villalobos, I. Rodero, E. Deelman, M. Zink, and A. Mandal"
+venue = "15th International Conference on eScience (eScience), p. 67–76, San Diego, CA, Sep 2019"
+type = "conference"
+url = "https://doi.org/10.1109/escience.2019.00015"
+
+[[publication]]
+year = 2019
+title = "Custom Execution Environments with Containers in Pegasus-enabled Scientific Workflows"
+authors = "K. Vahi, M. Rynge, G. Papadimitriou, D. Brown, R. Mayani, R. Ferreira da Silva, E. Deelman, A. Mandal, E. Lyons, and M. Zink"
+venue = "15th International Conference on eScience (eScience), 2019, p. 281–290, San Diego, CA, Sep 2019"
+type = "conference"
+url = "https://doi.org/10.1109/escience.2019.00039"
+
+[[publication]]
+year = 2019
+title = "Training Classifiers to Identify TCP Signatures in Scientific Workflows"
+authors = "G. Papadimitriou, M. Kiran, C. Wang, A. Mandal, and E. Deelman"
+venue = "Innovating the Network for Data Intensive Science (INDIS), Nov 2019"
+type = "workshop"
+url = "https://doi.org/10.1109/indis49552.2019.00012"
+
+[[publication]]
+year = 2019
+title = "Integrity Protection for Scientific Workflow Data: Motivation and Initial Experiences"
+authors = "M. Rynge, K. Vahi, E. Deelman, A. Mandal, I. Baldin, O. Bhide, R. Heiland, V. Welch, R. Hill, W. L. Poehlman, and A. F. Feltus"
+venue = "Proceedings of the Practice and Experience in Advanced Research Computing (PEARC) on Rise of the Machines (Learning), New York, NY, USA, 2019, p. 17:1–17:8., Jul 2019"
+type = "conference"
+url = "https://doi.org/10.1145/3332186.3332222"
+award = "Best Paper & Phil Andrews Most Transformative Contribution Award, PEARC '19"
+
+[[publication]]
+year = 2019
+title = "COMET: Distributed Metadata Service for Multi-cloud Experiments"
+authors = "K. Thareja, C. Wang, P. Ruth, A. Mandal, I. Baldin, M. Stealey"
+venue = "Midscale Education and Research Infrastructure and Tools (MERIT) Workshop at 27th IEEE International Conference on Network Protocols (ICNP 2019), October 2019"
+type = "workshop"
+url = "https://doi.org/10.1109/icnp.2019.8888138"
+
+[[publication]]
+year = 2018
+title = "Detecting Outliers in Network Transfers with Feature Extraction"
+authors = "M. Kiran, C. Wang, N. S. V. Rao and A. Mandal"
+venue = "DISE1: Joint Workshop on Deep (or Machine) Learning for Safety-Critical Applications in Engineering co-located with 35th International Conference on Machine Learning, Jul 2018"
+type = "workshop"
+url = "https://www.osti.gov/biblio/1468101-detecting-outliers-network-transfers-feature-extraction"
+
+[[publication]]
+year = 2017
+title = "PANORAMA: An Approach to Performance Modeling and Diagnosis of Extreme Scale Workflows"
+authors = "E. Deelman, C. Carothers, A. Mandal, B. Tierney, J. S. Vetter, I. Baldin, C. Castillo, G. Juve, D. Krol, V. Lynch, B. Mayer, J. Meredith, T. Proffen, P. Ruth, and R. Ferreira da Silva"
+venue = "International Journal of High Performance Computing Applications, vol. 31, iss. 1, p. 4–18, 2017"
+type = "journal"
+url = "https://doi.org/10.1177/1094342015594515"
+
+[[publication]]
+year = 2017
+title = "Toward Prioritization of Data Flows for Scientific Workflows Using Virtual Software Defined Exchanges"
+authors = "A. Mandal, P. Ruth, I. Baldin, R. Ferreira da Silva, and E. Deelman"
+venue = "First International Workshop on Workflow Science (WoWS 2017), 2017, p. 566–575, Oct 2017"
+type = "workshop"
+url = "https://doi.org/10.1109/escience.2017.92"
+
+[[publication]]
+year = 2017
+title = "Slice-based Network Transit Service: Inter-Domain L2 Networking on ExoGENI"
+authors = "Y. Yao, Q. Cao, J. Chase, P. Ruth, I. Baldin, Y. Xin, A. Mandal"
+venue = "Distributed Cloud Computing (DCC) Workshop at IEEE International Conference on Computer Communications (INFOCOM), May 2017"
+type = "workshop"
+url = "https://doi.org/10.1109/infcomw.2017.8116468"
+
+[[publication]]
+year = 2017
+title = "Data Flow Prioritization for Scientific Workflows Using A Virtual SDX on ExoGENI"
+authors = "A. Mandal, P. Ruth, I. Baldin, R. Silva and E. Deelman"
+venue = "Poster at 25th GENI Engineering Conference (GEC 25), Miami, FL, March 2017"
+type = "poster"
+url = "https://scitech.group/files/posters/2017/GEC25-DemoPoster.pdf"
+
+[[publication]]
+year = 2016
+title = "Anomaly Detection for Scientific Workflow Applications on Networked Clouds"
+authors = "P. Gaikwad, A. Mandal, P. Ruth, G. Juve, D. Krol, and E. Deelman"
+venue = "IEEE 2016 International Conference on High Performance Computing & Simulation (HPCS 2016), Jul 2016"
+type = "conference"
+url = "https://doi.org/10.1109/hpcsim.2016.7568396"
+
+[[publication]]
+year = 2016
+title = "Toward an End-to-end Framework for Modeling, Monitoring, and Anomaly Detection for Scientific Workflows"
+authors = "A. Mandal, P. Ruth, I. Baldin, D. Krol, G. Juve, R. Mayani, R. Ferreira da Silva, E. Deelman, J. Meredith, J. Vetter, V. Lynch, B. Mayer, J. Wynne III, M. Blanco, C. Carothers, J. LaPre, and B. Tierney"
+venue = "Workshop on Large-Scale Parallel Processing (LSPP 2016), 2016, p. 1370–1379, May 2016"
+type = "workshop"
+url = "https://doi.org/10.1109/ipdpsw.2016.202"
+
+[[publication]]
+year = 2016
+title = "ExoGENI: A Multi-Domain Infrastructure-as-a-Service Testbed"
+authors = "I. Baldin, J. Chase, Y. Xin, A. Mandal, P. Ruth, C. Castillo, V. Orlikowski, C. Heermann, and J. Mills"
+venue = "Rick McGeer, Mark Berman, Chip Elliott, Robert Ricci, Eds., The GENI Book, Chapter, pp 279-315, Springer International Publishing, isbn 978-3-319-33769-2, doi: 10.1007/978-3-319-33769-2 13, 2016"
+type = "chapter"
+url = "https://doi.org/10.1007/978-3-319-33769-2_13"
+
+[[publication]]
+year = 2016
+title = "Towards and Experimental Legoland: Slice Modification and Recovery in ExoGENI Testbed"
+authors = "Y. Xin, I. Baldin, A. Mandal, P. Ruth, and J. Chase"
+venue = "Proceedings of 11th EAI International Conference on Testbeds and Research Infrastructures for the Development of Networks & Communities (TridentCom’16), Hangzhou, China, June 2016"
+type = "conference"
+url = "https://doi.org/10.1007/978-3-319-49580-4_4"
+
+[[publication]]
+year = 2015
+title = "Adapting Scientific Workflows on Networked Clouds Using Proactive Introspection"
+authors = "A. Mandal, P. Ruth, I. Baldin, Y. Xin, C. Castillo, F. Jiang, C. Schmitt, G. Juve, M. Rynge, E. Deelman, and J. Chase"
+venue = "2015 IEEE/ACM 8th International Conference on Utility and Cloud Computing (UCC), Limassol, 2015, pp. 162-173, Dec 2015"
+type = "conference"
+url = "https://ieeexplore.ieee.org/document/7431407/definitions?ctx=definitions"
+
+[[publication]]
+year = 2015
+title = "Panorama: Modeling The Performance of Scientific Workflows"
+authors = "E. Deelman, C. Carothers, A. Mandal, B. Tierney, J. S. Vetter, I. Baldin, C. Castillo, G. Juve, D. Krol, V. Lynch, B. Mayer, J. Meredith, T. Proffen, P. Ruth, and R. Ferreira da Silva"
+venue = "Workshop on Modeling and Simulation of Systems and Applications (ModSim 2015), August 2015"
+type = "workshop"
+url = "https://deelman.isi.edu/wordpress/wp-content/papercite-data/pdf/deelman-modsim-2015.pdf"
+
+[[publication]]
+year = 2015
+title = "Enabling workflow repeatability with virtualization support"
+authors = "F. Jiang, C. Castillo, C. Schmitt, A. Mandal, P. Ruth, and I. Baldin"
+venue = "Proceedings of the 10th Workshop on Workflows in Support of Large-Scale Science (WORKS '15). ACM, New York, NY, USA, Article 8, 10 pages. DOI=http://dx.doi.org/10.1145/2822332.2822340"
+type = "workshop"
+url = "https://doi.org/10.1145/2822332.2822340"
+
+[[publication]]
+year = 2015
+title = "Achieving Performance Isolation on Multi-Tenant Networked Clouds Using Advanced Block Storage Mechanisms"
+authors = "P. Ruth, A. Mandal, C. Castillo, R. Fowler, J. Tilson, I. Baldin, and Y. Xin"
+venue = "Proceedings of the 2015 ACM HPDC International Workshop on Scientific Cloud Computing (ScienceCloud), Portland, OR, June 2015"
+type = "workshop"
+url = "https://doi.org/10.1145/2755644.2755649"
+
+[[publication]]
+year = 2014
+title = "Enabling Persistent Queries for Cross-aggregate Performance Monitoring"
+authors = "A. Mandal, I. Baldin, Y. Xin, P. Ruth and C. Heermann"
+venue = "IEEE Communications Magazine, vol 52(5), pp. 157-164, IEEE, May 2014"
+type = "journal"
+url = "https://doi.org/10.1109/mcom.2014.6815907"
+
+[[publication]]
+year = 2014
+title = "Managing Dynamic Networked Cloud Infrastructure for Data Driven Scientific Workflows Using Proactive Introspection"
+authors = "A. Mandal, P. Ruth, I. Baldin, Y. Xin, C. Castillo, F. Jiang, C. Schmitt, G. Juve, M. Rynge, E. Deelman, and J. Chase"
+venue = "SCinet Workshop on Innovating the Network for Data Intensive Science (INDIS) at SC 2014, New Orleans, LA, Nov 2014"
+type = "workshop"
+url = "https://scinet.supercomputing.org/community/documents/86/demo103s3.pdf"
+
+[[publication]]
+year = 2014
+title = "Domain Science Applications on GENI: Presentation and Demo"
+authors = "P. Ruth, A. Mandal"
+venue = "ICNP, 2014 IEEE 22nd International Conference on Network Protocols (ICNP), pp. 540-543, doi:10.1109/ICNP.2014.86, Oct 2014"
+type = "conference"
+url = "https://doi.org/10.1109/icnp.2014.86"
+
+[[publication]]
+year = 2014
+title = "Capacity of Inter-Cloud Layer-2 Virtual Networking"
+authors = "Y. Xin, I. Baldin, C. Heerman, A. Mandal, and P. Ruth"
+venue = "Proceedings of ACM SIGCOMM Workshop on Distributed Cloud Computing (DCC 2014), August 2014"
+type = "workshop"
+url = "https://doi.org/10.1145/2627566.2627573"
+
+[[publication]]
+year = 2014
+title = "Scaling up Applications Over Distributed Clouds with Dynamic Layer-2 Exchange and Broadcast Service"
+authors = "Y. Xin, I. Baldin, C. Heerman, A. Mandal, and P. Ruth"
+venue = "Proceedings of Workshop on Federated Future Internet and Distributed Cloud Testbeds (FIDC), September 9th-11th, 2014"
+type = "workshop"
+url = "https://doi.org/10.1109/itc.2014.6932973"
+
+[[publication]]
+year = 2014
+title = "Leveraging and Adapting ExoGENI Infrastructure for Data-driven Domain Science Workflows"
+authors = "A. Mandal, P. Ruth, I. Baldin, Y. Xin, C. Castillo, M. Rynge, and E. Deelman"
+venue = "Proceedings of the 3rd GENI Research and Educational Experiment Workshop (GREE 2014), GEC19, Atlanta, GA, USA, March 19-20, 2014"
+type = "workshop"
+url = "https://doi.org/10.1109/gree.2014.12"
+
+[[publication]]
+year = 2013
+title = "Evaluating I/O aware network management for scientific workflows on networked clouds"
+authors = "A. Mandal, P. Ruth, I. Baldin, Y. Xin, C. Castillo, M. Rynge, and E. Deelman"
+venue = "Proceedings of the Third International Workshop on Network-Aware Data Management (NDM '13). ACM, New York, NY, Nov 2013"
+type = "workshop"
+url = "https://doi.org/10.1145/2534695.2534698"
+
+[[publication]]
+year = 2012
+title = "Dynamic Network Provisioning for Data Intensive Applications in the Cloud"
+authors = "P. Ruth, A. Mandal, Y. Xin, I. Baldine, C. Heermann and J. Chase"
+venue = "IEEE e-Science 2012, Chicago, IL, Oct 2012"
+type = "conference"
+url = "https://doi.org/10.1109/escience.2012.6404461"
+
+[[publication]]
+year = 2012
+title = "ExoGENI: A Multi-Domain Infrastructure-as-a-Service Testbed"
+authors = "I. Baldine, Y. Xin, A. Mandal, P. Ruth, A. Yumerefendi and J. Chase"
+venue = "Proceedings of the 8th International ICST Conference on Testbeds and Research Infrastructures for the Development of Networks and Communities (TRIDENTCOM 2012), Thessaloniki, Greece, June 2012"
+type = "conference"
+url = "https://doi.org/10.1007/978-3-642-35576-9_12"
+
+[[publication]]
+year = 2012
+title = "System-wide Introspection for Accurate Attribution of Performance Bottlenecks"
+authors = "A. Mandal, A. Porterfield and R. Fowler"
+venue = "Proceedings of the 2nd International Workshop on High-performance Infrastructure for Scalable Tools (WHIST 2012), Venice, Italy, June 2012"
+type = "workshop"
+url = "https://www.semanticscholar.org/paper/System-wide-Introspection-for-Accurate-Attribution-Mandal-Renci/657b26de03ad5117910a9241d8cf21100e0e3639"
+
+[[publication]]
+year = 2012
+title = "Adaptive Scheduling Using Performance Introspection"
+authors = "A. Porterfield, R. Fowler, A. Mandal, D. Obrien, S. Olivier and M. Spiegel"
+venue = "RENCI Technical Report TR-12-02, May 2012"
+type = "report"
+url = "https://www.renci.org/wp-content/uploads/2012/07/TR-12-02.pdf"
+
+[[publication]]
+year = 2011
+title = "Provisioning and Evaluating Multi-domain Networked Clouds for Hadoop-based Applications"
+authors = "A. Mandal, Y. Xin, I. Baldine, P. Ruth, C. Heermann, J. Chase, V. Orlikowski and A. Yumerefendi"
+venue = "Proceedings of the 3rd International Conference on Cloud Computing Technologies and Science (IEEE Cloudcom '11), Athens, Greece, December 2011"
+type = "conference"
+url = "https://doi.org/10.1109/cloudcom.2011.107"
+
+[[publication]]
+year = 2011
+title = "Embedding Virtual Topologies in Networked Clouds"
+authors = "Y. Xin, I. Baldine, A. Mandal, C. Heermann, J. Chase and A. Yumerefendi"
+venue = "Proceedings of the 6th ACM International Conference on Future Internet Technologies 2011 (CFI 2011), Seoul, Korea, June 2011"
+type = "conference"
+url = "https://doi.org/10.1145/2002396.2002403"
+
+[[publication]]
+year = 2010
+title = "Modeling Memory Concurrency for Multi-Socket Multi-Core Systems"
+authors = "A. Mandal, R. Fowler and A. Porterfield"
+venue = "Proceedings of 2010 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS 2010), White Plains, NY, March 2010"
+type = "conference"
+url = "https://doi.org/10.1109/ispass.2010.5452064"
+
+[[publication]]
+year = 2010
+title = "Network Cloud Orchestration: A GENI Perspective"
+authors = "I. Baldine, Y. Xin, A. Mandal, C. Heermann, J. Chase, V. Marupadi, A. Yumerefendi and D. Irwin"
+venue = "Proceedings of the 2nd IEEE International Workshop on Management of Emerging Networks and Services (IEEE MENS '10) in conjunction with GLOBECOM'10, Miami, FL, December 2010"
+type = "workshop"
+url = "https://doi.org/10.1109/glocomw.2010.5700385"
+
+[[publication]]
+year = 2010
+title = "Implications for Applications and Compilers of Multi-core Memory Concurrency"
+authors = "A. Mandal, M. Y. Lim, A. Porterfield and R. Fowler"
+venue = "Poster at International Workshop on Languages and Compilers for Parallel Computing (LCPC'10), Houston, TX, October 2010"
+type = "poster"
+url = "https://www.renci.org/wp-content/pub/techreports/TR-10-03.pdf"
+
+[[publication]]
+year = 2009
+title = "VGrADS: Enabling e-Science Workflows on Grids and Clouds with Fault Tolerance"
+authors = "L. Ramakrishnan, D. Nurmi, A. Mandal, C. Koelbel, D. Gannon, T. M. Huang, Y. S. Kee, G. Obertelli, K. Thyagaraja, R. Wolski, A. Yarkhan, D. Zagorodnov"
+venue = "Proceedings of the IEEE/ACM International Conference for High Performance Computing, Networking, Storage and Analysis (SC) ’09, Portland, OR, Nov 2009"
+type = "conference"
+url = "https://doi.org/10.1145/1654059.1654107"
+
+[[publication]]
+year = 2009
+title = "Combined Fault Tolerance and Scheduling Techniques for Workflow Applications on Computational Grids"
+authors = "R. Zhang, A. Mandal, C. Koelbel and K. Cooper"
+venue = "Proceedings of the IEEE International Symposium on Cluster Computing and the Grid (CCGrid), May 2009"
+type = "conference"
+url = "https://doi.org/10.1109/ccgrid.2009.59"
+
+[[publication]]
+year = 2009
+title = "Empirical Evaluation of Multi-Core Memory Concurrency"
+authors = "A. Porterfield, R. Fowler, A. Mandal and M. Y. Lim"
+venue = "Technical Report TR-09-01, RENCI, North Carolina, Jan 2009"
+type = "report"
+url = "https://www.semanticscholar.org/paper/Empirical-Evaluation-of-Multi-Core-Memory-Initial-Porterfield-Fowler/cab92f76062b8e7443e0f883b76483be60917e3e"
+
+[[publication]]
+year = 2008
+title = "Challenges of Scale: When All Computing Becomes Grid Computing"
+authors = "R. J. Fowler, T. Gamblin, G. Kandaswamy, A. Mandal, A. K. Porterfield, L. Ramakrishnan, and D. A. Reed"
+venue = "Lucio Grandinetti, Eds., High Performance Computing and Grids in Action, Chapter, IOS Press, Amsterdam, 2008"
+type = "chapter"
+url = "https://ebooks.iospress.nl/volumearticle/26289"
+
+[[publication]]
+year = 2008
+title = "Fault Tolerance and Recovery of Scientific Workflows on Computational Grids"
+authors = "G. Kandaswamy, A. Mandal, and D. A. Reed"
+venue = "Proceedings of the IEEE International Symposium on Cluster Computing and the Grid (CCGrid), pp. 777-782, Lyon, France, May 2008"
+type = "conference"
+url = "https://doi.org/10.1109/ccgrid.2008.79"
+
+[[publication]]
+year = 2008
+title = "Performance Consistency on Multi-socket AMD Opteron Systems"
+authors = "A. Porterfield, R. Fowler, A. Mandal, and M. Lim"
+venue = "Technical Report TR-08-07, RENCI, North Carolina, Dec 2008"
+type = "report"
+url = "https://www.semanticscholar.org/paper/Performance-Consistency-on-Multi-socket-AMD-Opteron-Fowler-Mandal/6d1a80c01c9cb12401fd8211dd267d5c150d4736"
+
+[[publication]]
+year = 2006
+title = "Evaluation of a Workflow Scheduler Using Integrated Performance Modeling and Batch Queue Wait Time Prediction"
+authors = "D. Nurmi, A. Mandal, J. Brevik, K, C. Koelbel, R. Wolski and K. Kennedy"
+venue = "Proceedings of the IEEE/ACM International Conference for High Performance Computing, Networking, Storage and Analysis (SC), pp. 29-, Tampa, FL, November 2006"
+type = "conference"
+url = "https://doi.org/10.1145/1188455.1188579"
+
+[[publication]]
+year = 2006
+title = "Scalable Grid Application Scheduling with Virtual Grids via Decoupled Resource Selection and Scheduling"
+authors = "R. Zhang, A. Mandal, H. Casanova, A. Chien, Y. Kee, K. Kennedy and C. Koelbel"
+venue = "Proceedings of the IEEE International Symposium on Cluster Computing and the Grid (CCGrid), Vol 1, pp. 568-575, Singapore, May 2006"
+type = "conference"
+url = "https://doi.org/10.1109/ccgrid.2006.89"
+
+[[publication]]
+year = 2006
+title = "Toward a Tool for Scheduling Application Workflows onto Distributed Grid Systems"
+authors = "A. Mandal"
+venue = "PhD Thesis, Available as Technical Report TR06-875, Computer Science, Rice University, May 2006"
+type = "thesis"
+url = "https://scholarship.rice.edu/handle/1911/18944"
+
+[[publication]]
+year = 2005
+title = "Scheduling Strategies for Mapping Application Workflows onto the Grid"
+authors = "A. Mandal, K. Kennedy, C. Koelbel, G. Marin, J. Mellor-Crummey, B. Liu and L. Johnsson"
+venue = "Proceedings of the IEEE International Symposium on High Performance Distributed Computing (HPDC), pp. 125-134, Raleigh, NC, July 2005"
+type = "conference"
+url = "http://doi.org/10.1109/HPDC.2005.1520947"
+
+[[publication]]
+year = 2005
+title = "Task Scheduling Strategies for Workflow-based Applications in Grids"
+authors = "J. Blythe, S. Jain, E. Deelman, Y. Gil, K. Vahi, A. Mandal and K. Kennedy"
+venue = "Proceedings of the IEEE International Symposium on Cluster Computing and the Grid (CCGrid), Vol 2, pp. 759-767, Cardiff, UK, May 2005"
+type = "conference"
+url = "https://doi.org/10.1109/ccgrid.2005.1558639"
+
+[[publication]]
+year = 2005
+title = "New Grid Scheduling and Rescheduling Methods in the GrADS Project"
+authors = "F. Berman, H. Casanova, A. Chien, K. Cooper, H. Dail, A. Dasgupta, W. Deng, J. Dongarra, L. Johnsson, K. Kennedy, C. Koelbel, B. Liu, X. Liu, A. Mandal, G. Marin, M. Mazina, J. Mellor-Crummey, C. Mendes, A. Olugbile, M. Patel, D. Reed, Z. Shi, O. Sievert, H. Xia and A. YarKhan"
+venue = "International Journal of Parallel Programming (IJPP), Volume 33(2-3):pp. 209-229, 2005"
+type = "journal"
+url = "https://doi.org/10.1007/s10766-005-3584-4"
+
+[[publication]]
+year = 2004
+title = "Scheduling Workflow Applications in GrADS"
+authors = "A. Mandal, A. Dasgupta, K. Kennedy, M. Mazina, C. Koelbel, G. Marin, K. Cooper, J. Mellor-Crummey, B. Liu and L. Johnsson"
+venue = "Proceedings of the IEEE International Symposium on Cluster Computing and the Grid (CCGrid), pp. 790-797, Chicago, IL, April 2004"
+type = "conference"
+url = "https://doi.org/10.1109/CCGrid.2004.1336714"

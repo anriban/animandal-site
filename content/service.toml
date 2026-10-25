@@ -1,0 +1,225 @@
+# Professional service, shown on the Service page.
+# Sources: CV (through 2024) and the 2024–25 and 2025–26 self-evaluations.
+#
+# [[leadership]]  role, org, years, note (optional), url (optional)
+# [[organizing]]  role, event, years, url (optional)
+# [[pc]]          venue (short name), full (full name), years, role (optional: e.g. "Area Chair")
+# [[panel]]       agency, short (abbreviation for the home page), dates (list of "Mon YYYY" or "YYYY")
+# [[editorial]]   role, venue, years
+# [[reviewer]]    venue, years
+#
+# Years are free text, e.g. "2023–2026" or "2016–2021, 2025".
+
+# ---------------------------------------------------------------- leadership & advisory
+
+[[leadership]]
+role = "Associate Director"
+org = "CI Compass, the NSF Cyberinfrastructure Center of Excellence"
+years = "2021–present"
+url = "https://ci-compass.org/"
+
+[[leadership]]
+role = "Member, Advisory Council"
+org = "MCNC (Microelectronics Center of North Carolina)"
+years = "Current"
+note = "Strategic advice to MCNC and its Board of Directors. MCNC provides high-speed internet and technology services to North Carolina's schools, libraries, healthcare facilities, and public safety organizations."
+url = "https://www.mcnc.org/"
+
+[[leadership]]
+role = "Member, Advisory Committee"
+org = "Midscale Experimental Research Infrastructure Forum (MERIF)"
+years = "Current"
+note = "Strategic advice on the future of NSF CISE/OAC-funded testbeds and research infrastructure, and related community building."
+
+[[leadership]]
+role = "Liaison to the NSF Large Facilities Office"
+org = "Research Infrastructure Community Outreach (RICO) Working Group"
+years = "Current"
+
+# ---------------------------------------------------------------- organizing
+
+[[organizing]]
+role = "Workshop Co-Chair"
+event = "Workshop on Workflows in Support of Large-Scale Science (WORKS), held with SC"
+years = "2023–2026"
+url = "https://works-workshop.org/"
+
+[[organizing]]
+role = "Organizer"
+event = "NSF CI Compass Virtual Workshop: AI Meets CI"
+years = "2026"
+
+[[organizing]]
+role = "Organizer"
+event = "NSF CI Compass Virtual Workshop: Data Management, From Instrument to First Storage"
+years = "2025"
+url = "https://doi.org/10.5281/zenodo.15858297"
+
+[[organizing]]
+role = "Workshop Organizer"
+event = "NSF Cyberinfrastructure for Major Facilities Workshop"
+years = "2019, 2022, 2024"
+
+[[organizing]]
+role = "Area Chair, Architecture, Network/Communications, and Management"
+event = "IEEE Cluster 2021"
+years = "2021"
+
+[[organizing]]
+role = "Workshop Co-Chair"
+event = "Innovating the Network for Data-Intensive Science (INDIS), held with SC"
+years = "2021"
+
+[[organizing]]
+role = "Guest Editor"
+event = "Elsevier Future Generation Computer Systems (FGCS), special issue on workflows"
+years = "2019–2021"
+
+# ---------------------------------------------------------------- program committees
+
+[[pc]]
+venue = "SC"
+full = "IEEE/ACM International Conference for High Performance Computing, Networking, Storage, and Analysis"
+years = "2018 (Clouds & Distributed Computing track), 2024 (Reproducibility Challenge)"
+
+[[pc]]
+venue = "eScience"
+full = "IEEE International Conference on e-Science"
+years = "2019, 2024, 2025, 2026"
+
+[[pc]]
+venue = "CCGrid"
+full = "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing"
+years = "2017–2021, 2025"
+
+[[pc]]
+venue = "Cluster"
+full = "IEEE International Conference on Cluster Computing"
+years = "2021"
+role = "Area Chair"
+
+[[pc]]
+venue = "IPDPS"
+full = "IEEE International Parallel and Distributed Processing Symposium"
+years = "2016"
+
+[[pc]]
+venue = "Euro-Par"
+full = "International European Conference on Parallel and Distributed Computing (main conference and workshops)"
+years = "2023–2026"
+
+[[pc]]
+venue = "UCC"
+full = "IEEE/ACM International Conference on Utility and Cloud Computing"
+years = "2020–2023"
+
+[[pc]]
+venue = "ICCS"
+full = "International Conference on Computational Science"
+years = "2024–2026"
+
+[[pc]]
+venue = "WORKS"
+full = "Workshop on Workflows in Support of Large-Scale Science"
+years = "2016–2021"
+role = "Co-Chair 2023–2026"
+
+[[pc]]
+venue = "INDIS"
+full = "Innovating the Network for Data-Intensive Science"
+years = "2018, 2021–2025"
+role = "Co-Chair 2021"
+
+[[pc]]
+venue = "WiDE"
+full = "Workshop on Workflows in Distributed Environments"
+years = "2024"
+
+[[pc]]
+venue = "SIoTEC"
+full = "Workshop on Secure IoT, Edge and Cloud Systems"
+years = "2024"
+
+[[pc]]
+venue = "GCE"
+full = "Grid Computing Environments Workshop"
+years = "2009"
+
+# ---------------------------------------------------------------- review panels
+
+[[panel]]
+agency = "National Science Foundation (NSF)"
+short = "NSF"
+dates = ["Apr 2026", "Dec 2025", "Oct 2024", "Jan 2024", "Oct 2023", "Oct 2022", "Apr 2019", "Mar 2017", "May 2009", "Mar 2009"]
+
+[[panel]]
+agency = "Department of Energy (DOE)"
+short = "DOE"
+dates = ["Jun 2025", "Jun 2024", "May 2023", "Nov 2021", "Apr 2021", "Jan 2016"]
+
+[[panel]]
+agency = "Vienna Science and Technology Fund (WWTF), Austria"
+short = "WWTF (Austria)"
+dates = ["2024"]
+
+# ---------------------------------------------------------------- journal reviewing
+
+[[reviewer]]
+venue = "IEEE Transactions on Parallel and Distributed Systems (TPDS)"
+years = "2007–2009, 2014–2016, 2021"
+
+[[reviewer]]
+venue = "IEEE Transactions on Cloud Computing (TCC)"
+years = "2014, 2017, 2019"
+
+[[reviewer]]
+venue = "Future Generation Computer Systems (FGCS)"
+years = "2005–2007, 2017–2021"
+
+[[reviewer]]
+venue = "Journal of Parallel and Distributed Computing (JPDC)"
+years = "2004–2006, 2022"
+
+[[reviewer]]
+venue = "International Journal of High Performance Computing Applications (IJHPCA)"
+years = "2019"
+
+[[reviewer]]
+venue = "Concurrency and Computation: Practice and Experience"
+years = "2001, 2004, 2021"
+
+[[reviewer]]
+venue = "Computing in Science & Engineering"
+years = "2023"
+
+[[reviewer]]
+venue = "IEEE Access"
+years = "2022–2023"
+
+[[reviewer]]
+venue = "Elsevier SoftwareX"
+years = "2020–2021"
+
+[[reviewer]]
+venue = "ACM Transactions on Modeling and Computer Simulation"
+years = "2019"
+
+[[reviewer]]
+venue = "ACM Computing Surveys"
+years = "2012"
+
+[[reviewer]]
+venue = "Journal of Systems and Software"
+years = "2010"
+
+[[reviewer]]
+venue = "Parallel Computing (PARCO)"
+years = "2006"
+
+[[reviewer]]
+venue = "Journal of Grid Computing"
+years = "2003"
+
+# Earlier conference reviewing (shown as one line)
+[early_reviewing]
+text = "External reviewer for IPDPS (2003, 2005, 2010), SC (2004), Euro-Par (2004, 2006, 2008), Middleware for Grid Computing (2004), and the LACSI Symposium (2004)."

@@ -1,0 +1,133 @@
+# Press and media coverage, shown on the News page.
+#
+# Fields: date ("YYYY-MM"), title, outlet, url, note (optional)
+
+[[item]]
+date = "2026-08"
+title = "RENCI Hosts Inaugural REU Site"
+outlet = "RENCI News"
+url = "https://renci.org/blog/renci-hosts-inaugural-reu-site/"
+note = "Eight undergraduates spent the summer researching networking, cybersecurity, and AI on the FABRIC testbed"
+
+[[item]]
+date = "2025-08"
+title = "Universities Unite to Advance AI-Driven Workflow Management on Modern Cyberinfrastructure"
+outlet = "RENCI News"
+url = "https://renci.org/news/universities-unite-to-advance-ai-driven-workflow-management-on-modern-cyberinfrastructure/"
+note = "$5M NSF award to build PegasusAI"
+
+[[item]]
+date = "2023-11"
+title = "Exploring the power of distributed intelligence for resilient scientific workflows"
+outlet = "RENCI News"
+url = "https://renci.org/news/exploring-the-power-of-distributed-intelligence-for-resilient-scientific-workflows/"
+
+[[item]]
+date = "2023-11"
+title = "RENCI Awarded NSF Grant to Develop Cyberinfrastructure Training Program for X-ray Scientists"
+outlet = "HPCwire"
+url = "https://www.hpcwire.com/off-the-wire/renci-awarded-nsf-grant-to-develop-cyberinfrastructure-training-program-for-x-ray-scientists/"
+
+[[item]]
+date = "2022-01"
+title = "Drone projects take data processing and communication to new heights"
+outlet = "RENCI News"
+url = "https://renci.org/blog/drone-projects-take-data-processing-and-communication-to-new-heights/"
+
+[[item]]
+date = "2021-12"
+title = "RENCI researchers awarded 2021 Best Paper from the Elsevier FGCS Journal"
+outlet = "RENCI News"
+url = "https://renci.org/blog/renci-researchers-awarded-2021-best-paper-from-the-elsevier-fgcs-journal/"
+note = "For *End-to-end online performance data capture and analysis for scientific workflows*"
+
+[[item]]
+date = "2021-11"
+title = "RENCI's Network Research and Infrastructure Group works to advance the nation's cyberinfrastructure"
+outlet = "RENCI News"
+url = "https://renci.org/blog/rencis-network-research-and-infrastructure-group-works-to-advance-the-nations-cyberinfrastructure/"
+
+[[item]]
+date = "2021-09"
+title = "RENCI Collaboration to Leverage AI and ML for DOE Workflows"
+outlet = "HPCwire"
+url = "https://www.hpcwire.com/off-the-wire/renci-collaboration-to-leverage-ai-and-ml-for-doe-workflows/"
+
+[[item]]
+date = "2021-09"
+title = "RENCI to join researchers in a collaboration to increase reliability and efficiency of DOE scientific workflows by leveraging artificial intelligence and machine learning methods"
+outlet = "RENCI News"
+url = "https://renci.org/news/renci-to-join-researchers-in-a-collaboration-to-increase-reliability-and-efficiency-of-doe-scientific-workflows-by-leveraging-artificial-intelligence-and-machine-learning-methods/"
+
+[[item]]
+date = "2021-07"
+title = "RENCI to Support NSF Major Facilities with Data Lifecycle Management Efforts through New COE"
+outlet = "HPCwire"
+url = "https://www.hpcwire.com/off-the-wire/renci-to-support-nsf-major-facilities-with-data-lifecycle-management-efforts-through-new-coe/"
+
+[[item]]
+date = "2021-07"
+title = "Researchers across the US will support NSF Major Facilities in their data lifecycle management efforts through new NSF-funded center of excellence"
+outlet = "University of Notre Dame Research Communications"
+url = "https://ci-compass.org/news-and-events/news/researchers-across-the-us-will-support-nsf-major-facilities-in-their-data-lifecycle-management-efforts-through-new-nsf-funded-center-of-excellence/"
+
+[[item]]
+date = "2021-07"
+title = "RENCI joins researchers across the US in supporting NSF Major Facilities with data lifecycle management efforts through new NSF-funded Center of Excellence"
+outlet = "RENCI News"
+url = "https://renci.org/news/renci-joins-researchers-across-the-us-in-supporting-nsf-major-facilities-with-data-lifecycle-management-efforts-through-new-nsf-funded-center-of-excellence/"
+
+[[item]]
+date = "2021-02"
+title = "RENCI to help guide effort to improve the efficiency of drone applications by leveraging edge, in-network, and cloud computing"
+outlet = "RENCI News"
+url = "https://renci.org/blog/renci-to-help-guide-effort-to-improve-the-efficiency-of-drone-applications-by-leveraging-edge-in-network-and-cloud-computing/"
+
+[[item]]
+date = "2020-07"
+title = "UMass Amherst-led research team receives $749,998 NSF grant to use edge and cloud computing to improve drone capabilities"
+outlet = "University of Massachusetts Amherst"
+url = "https://www.umass.edu/news/article/umass-amherst-led-research-team-receives"
+
+[[item]]
+date = "2020-07"
+title = "Making Drone Traffic More Safe, Efficient, and Economical"
+outlet = "UMass Amherst ECE Newsletter"
+url = "https://ece.umass.edu/news/making-drone-traffic-more-safe-efficient-and-economical"
+
+[[item]]
+date = "2020-03"
+title = "Researchers Develop Platform to Improve Weather Forecasting"
+outlet = "USC Viterbi News"
+url = "https://viterbischool.usc.edu/news/2020/03/researchers-develop-platform-to-improve-weather-forecasting/"
+
+[[item]]
+date = "2020-01"
+title = "Pegasus Research Team Discovers Errors for a Win"
+outlet = "USC Viterbi News"
+url = "https://viterbischool.usc.edu/news/2020/01/pegasus-research-team-discovers-errors-for-a-win/"
+
+[[item]]
+date = "2019-11"
+title = "Inaugural SCinet Technology Challenge at SC19 Brings Supercomputing and Networking Together to Reimagine the Future of Data-driven Scientific Applications"
+outlet = "SC'19 Communications"
+url = "https://sc19.supercomputing.org/2019/11/22/inaugural-scinet-technology-challenge-at-sc19-brings-supercomputing-and-networking-together-to-reimagine-the-future-of-data-driven-scientific-applications/"
+note = "DyNamo wins two awards at the SC19 SCinet Technology Challenge"
+
+[[item]]
+date = "2018-10"
+title = "RENCI named as collaborator for $3 million Cyberinfrastructure Center of Excellence pilot"
+outlet = "UNC Chapel Hill Office of Research Communications"
+url = "https://www.eurekalert.org/pub_releases/2018-10/uonc-rna100918.php"
+
+[[item]]
+date = "2018-08"
+title = "RENCI to lead two $1 million grants to support data-intensive scientific research"
+outlet = "HPCwire"
+url = "https://www.hpcwire.com/off-the-wire/renci-to-lead-two-1-million-grants-to-support-data-intensive-scientific-research/"
+
+[[item]]
+date = "2018-08"
+title = "RENCI to lead two $1 million grants to support data-intensive scientific research"
+outlet = "UNC Chapel Hill Office of Research Communications"
+url = "https://www.eurekalert.org/pub_releases/2018-08/uonc-rtl082718.php"

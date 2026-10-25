@@ -1,0 +1,212 @@
+# Funding awards and honors, shown on the Awards page.
+#
+# [[grant]] fields:
+#   title, agency, program (optional), award (number, optional), award_url (optional),
+#   role (optional, e.g. "PI", "Co-PI"), start, end ("Mon YYYY"), amount (text, e.g. "$5,000,000"), collaborators (list; put the lead first and mark it "(Lead)")
+#
+# [[honor]] fields:
+#   year, title, event, date (text), recipients, paper (optional), url (optional)
+
+[[grant]]
+title = "CSSI: Frameworks: Applying Artificial Intelligence Advances to the Next Generation of Workflow Management on Modern Cyberinfrastructure"
+agency = "NSF"
+program = "Office of Advanced Cyberinfrastructure (OAC)"
+award = "2513101"
+role = "Co-PI"
+start = "Jun 2025"
+end = "May 2030"
+amount = "$5,000,000"
+collaborators = ["USC/ISI (Lead)", "RENCI", "University of Tennessee at Knoxville", "University of Massachusetts at Amherst"]
+
+[[grant]]
+title = "Collaborative Research: Cross-Cutting Improvements: Open Science Roadmap for Research Infrastructures"
+agency = "NSF"
+program = "Office of Advanced Cyberinfrastructure (OAC)"
+award = "2531701"
+role = "PI (UNC)"
+start = "Oct 2025"
+end = "Sep 2028"
+amount = "$600,000"
+collaborators = ["University of Notre Dame (Lead)", "USC/ISI", "RENCI", "Indiana University"]
+
+[[grant]]
+title = "REU Site: Exploring the FABRIC Research Instrument to Catalyze Multi-disciplinary Research in Networks, Distributed Systems, and Emerging CyberInfrastructure (CI) Applications"
+agency = "NSF"
+program = "Division of Computer and Network Systems (CNS)"
+award = "2447441"
+role = "PI"
+start = "Aug 2025"
+end = "Jul 2028"
+amount = "$369,421"
+collaborators = ["RENCI"]
+
+[[grant]]
+title = "CyberTraining: Implementation: Medium: Cyberinfrastructure Training and Education for Leveraging Advanced Electron Microscopy in Materials Science"
+agency = "NSF"
+program = "Office of Advanced Cyberinfrastructure (OAC)"
+award = "2519465"
+role = "PI"
+start = "Jul 2025"
+end = "Jun 2028"
+amount = "$1,000,000"
+collaborators = ["RENCI (Lead)", "USC/ISI", "University of Maryland at College Park"]
+
+[[grant]]
+title = "CyberTraining: Implementation: Medium: CyberInfrastructure Training and Education for Synchrotron X-Ray Science (X-CITE)"
+agency = "NSF"
+program = "Office of Advanced Cyberinfrastructure (OAC)"
+award = "2320373"
+role = "PI"
+start = "Sep 2023"
+end = "Aug 2026"
+amount = "$1,000,000"
+collaborators = ["RENCI (Lead)", "USC/ISI", "Cornell University"]
+
+[[grant]]
+title = "Exploring the Power of Distributed Intelligence for Resilient Scientific Workflows"
+agency = "DOE"
+program = "Advanced Scientific Computing Research (ASCR)"
+role = "Co-PI"
+start = "Jul 2023"
+end = "Jun 2028"
+amount = "$8,750,000"
+collaborators = ["USC/ISI (Lead)", "RENCI", "Lawrence Berkeley National Lab", "Argonne National Lab", "Oak Ridge National Lab"]
+
+[[grant]]
+title = "PosEiDon: Platform for Explainable Distributed Infrastructure"
+agency = "DOE"
+program = "Advanced Scientific Computing Research (ASCR)"
+role = "Co-PI"
+start = "Sep 2021"
+end = "Aug 2024"
+amount = "$3,750,000"
+collaborators = ["USC/ISI (Lead)", "RENCI", "Lawrence Berkeley National Lab", "Argonne National Lab"]
+
+[[grant]]
+title = "CI CoE: CI Compass: An NSF Cyberinfrastructure (CI) Center of Excellence for Navigating the Major Facilities Data Lifecycle"
+agency = "NSF"
+program = "Office of Advanced Cyberinfrastructure (OAC)"
+award = "2127548"
+role = "Co-PI"
+start = "Jul 2021"
+end = "Jun 2026"
+amount = "$8,000,000"
+collaborators = ["USC/ISI (Lead)", "RENCI", "University of Notre Dame", "University of Utah", "Indiana University", "Texas Tech University"]
+
+[[grant]]
+title = "CC* Integration-Large: An 'On-the-fly' Deeply Programmable End-to-end Network-Centric Platform for Edge-to-Core Workflows"
+agency = "NSF"
+program = "Office of Advanced Cyberinfrastructure (OAC)"
+award = "2018074"
+role = "Co-PI"
+start = "Oct 2020"
+end = "Sep 2022"
+amount = "$750,000"
+collaborators = ["University of Massachusetts at Amherst (Lead)", "RENCI", "USC/ISI", "University of Missouri"]
+
+[[grant]]
+title = "Pilot Study for a Cyberinfrastructure Center of Excellence"
+agency = "NSF"
+program = "Office of Advanced Cyberinfrastructure (OAC) and Biological Sciences (BIO)"
+award = "1842042"
+role = "Co-PI"
+start = "Oct 2018"
+end = "Sep 2021"
+amount = "$3,884,346"
+collaborators = ["USC/ISI (Lead)", "RENCI", "University of Notre Dame", "University of Utah", "Indiana University"]
+
+[[grant]]
+title = "CICI: SSC: Integrity Introspection for Scientific Workflows (IRIS)"
+agency = "NSF"
+program = "Office of Advanced Cyberinfrastructure (OAC)"
+award = "1839900"
+role = "PI"
+start = "Sep 2018"
+end = "Aug 2022"
+amount = "$999,575"
+collaborators = ["RENCI (Lead)", "USC/ISI", "Indiana University"]
+
+[[grant]]
+title = "CC* Integration: Delivering a Dynamic Network-centric Platform for Data-driven Science (DyNamo)"
+agency = "NSF"
+program = "Office of Advanced Cyberinfrastructure (OAC)"
+award = "1826997"
+role = "PI"
+start = "Aug 2018"
+end = "Jul 2021"
+amount = "$1,000,000"
+collaborators = ["RENCI (Lead)", "USC/ISI", "University of Massachusetts at Amherst", "Rutgers University"]
+
+[[grant]]
+title = "Panorama 360: Performance data capture and analysis for end-to-end scientific workflows"
+agency = "DOE"
+program = "Advanced Scientific Computing Research (ASCR)"
+award = "DE-SC0012636M"
+role = "Co-PI"
+start = "Sep 2017"
+end = "Aug 2021"
+amount = "$3,000,000"
+collaborators = ["USC/ISI (Lead)", "RENCI", "Lawrence Berkeley National Lab", "Oak Ridge National Lab"]
+
+[[grant]]
+title = "Predictive Modeling and Diagnostic Monitoring of Extreme Science Workflows"
+agency = "DOE"
+program = "Advanced Scientific Computing Research (ASCR)"
+award = "DE-SC0012636"
+start = "Sep 2014"
+end = "Aug 2017"
+amount = "$3,000,000"
+collaborators = ["USC/ISI (Lead)", "RENCI", "Lawrence Berkeley National Lab", "Oak Ridge National Lab", "RPI"]
+
+[[grant]]
+title = "Collaborative Research: SDCI Net New: The Missing Link: Connecting Eucalyptus Clouds with Multi-Layer Networks"
+agency = "NSF"
+program = "Office of Advanced Cyberinfrastructure (OAC)"
+award = "1032873, 1032573, 1032765"
+start = "Sep 2010"
+end = "Aug 2014"
+amount = "$808,000"
+collaborators = ["Duke University", "RENCI", "University of Massachusetts at Amherst"]
+
+# ---------------------------------------------------------------- honors
+
+[[honor]]
+year = 2023
+title = "Best Paper Award"
+event = "IEEE/ACM Innovating the Network for Data-Intensive Science (INDIS) Workshop at SC'23"
+date = "November 2023"
+recipients = "I. Mahmud, G. Papadimitriou, C. Wang, M. Kiran, A. Mandal, and E. Deelman"
+paper = "Elephants Sharing the Highway: Studying TCP Fairness in Large Transfers over High Throughput Links"
+
+[[honor]]
+year = 2022
+title = "Best Paper Award"
+event = "ACM/IEEE International Workshop on Cloud-to-Things Continuum (Cloud2Things 2022)"
+date = "May 2022"
+recipients = "R. Tanaka, G. Papadimitriou, S. Charan, C. Wang, E. Lyons, K. Thareja, C. Qu, A. Esquivel, E. Deelman, A. Mandal, P. Calyam, and M. Zink"
+paper = "Automating Edge-to-cloud Workflows for Science: Traversing the Edge-to-cloud Continuum with Pegasus"
+
+[[honor]]
+year = 2021
+title = "Best Paper Award"
+event = "Elsevier Future Generation Computer Systems (FGCS) Journal"
+date = "October 2021"
+recipients = "G. Papadimitriou, C. Wang, K. Vahi, R. Silva, A. Mandal, Z. Liu, R. Mayani, M. Rynge, M. Kiran, V. Lynch, R. Kettimuthu, E. Deelman, J. Vetter, and I. Foster"
+paper = "End-to-end online performance data capture and analysis for scientific workflows"
+
+[[honor]]
+year = 2019
+title = "SCinet Technology Challenge Awards: Most Original Technical Approach & Most Diverse Resource Set"
+event = "SC'19 Conference"
+date = "November 2019"
+recipients = "The DyNamo project team (RENCI/UNC Chapel Hill, USC/ISI, UMass Amherst, and Rutgers University)"
+paper = "Dynamic Network-Centric Multi-Cloud Platform (DyNamo) for Real-Time Weather Forecasting Workflows"
+url = "https://sc19.supercomputing.org/2019/11/22/inaugural-scinet-technology-challenge-at-sc19-brings-supercomputing-and-networking-together-to-reimagine-the-future-of-data-driven-scientific-applications/"
+
+[[honor]]
+year = 2019
+title = "Phil Andrews Most Transformative Contribution Award & Best Paper Award"
+event = "Practice and Experience in Advanced Research Computing (PEARC '19)"
+date = "July 2019"
+recipients = "M. Rynge, K. Vahi, E. Deelman, A. Mandal, I. Baldin, O. Bhide, R. Heiland, V. Welch, R. Hill, W. L. Poehlman, and A. F. Feltus"
+paper = "Integrity Protection for Scientific Workflow Data: Motivation and Initial Experiences"
