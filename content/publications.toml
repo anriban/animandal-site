@@ -226,7 +226,7 @@ year = 2024
 title = "Network Testbed for Experimenting With Decentralized Federated Learning"
 authors = "A. Mandal, K. Thareja, and P. Ruth"
 venue = "POSTER Paper in 20th IEEE International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT 2024), Abu Dhabi, UAE, April 2024"
-type = "poster"
+type = ["poster", "conference"]
 url = "https://doi.ieeecomputersociety.org/10.1109/DCOSS-IoT61029.2024.00119"
 
 [[publication]]
