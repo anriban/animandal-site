@@ -4,8 +4,8 @@ Static site generator (stdlib Python 3.12+, no dependencies) plus a CV generator
 `README.md` has the full editing guide, including a "what goes where" table for every kind of update.
 
 - Source repo: https://github.com/anriban/animandal-site (deployed to GitHub Pages by `.github/workflows/deploy.yml` on every push to `main`)
-- Live preview: https://anriban.github.io/animandal-site/
-- `www.animandal.com` still points to the old Google Sites site (domain at Squarespace). Do not add a `CNAME` file or a custom domain unless asked; switching the domain is a separate, deliberate step.
+- Live site: https://www.animandal.com (custom domain set in the repo's *Settings → Pages*; `anriban.github.io/animandal-site/` and `animandal.com` redirect to it)
+- DNS is at Squarespace: `www` is a CNAME to `anriban.github.io`, `@` has GitHub Pages' A/AAAA records, plus a `_github-pages-challenge-anriban` TXT for domain verification. Do not add a `CNAME` file: the site deploys through GitHub Actions, which ignores it.
 
 ## Commands
 

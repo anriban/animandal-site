@@ -129,4 +129,4 @@ git add cv/Anirban_Mandal_CV.pdf content/ && git commit -m "Update CV" && git pu
 - **Netlify / Cloudflare Pages:** set the build command to `python3 build.py` and the output directory to `_site`.
 - **Any web server:** run `python3 build.py` and upload the contents of `_site/`.
 
-To keep the `www.animandal.com` address, point the domain's DNS at the new host. On GitHub Pages, add the domain under *Settings → Pages → Custom domain*. Then retire the Google Site.
+The site is served at `www.animandal.com` from GitHub Pages. The domain is registered at Squarespace, where DNS points `www` (CNAME to `anriban.github.io`) and the bare domain (GitHub Pages' A/AAAA records) at GitHub. The domain itself is set under *Settings → Pages → Custom domain*. To move to another host, change those DNS records.
