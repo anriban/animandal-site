@@ -11,6 +11,8 @@ highlight_author = ["A. Mandal", "Anirban Mandal", "Mandal, A.", "Mandal A"]
 # How many items to show on the home page
 home_news_count = 6
 home_projects_count = 6
+# Google Analytics 4 measurement ID (Admin → Data streams). Remove the line to turn analytics off.
+google_analytics = "G-G3NLKEJV49"
 
 [profile]
 name = "Anirban Mandal"

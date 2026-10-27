@@ -160,6 +160,15 @@ def asset_version():
     return h.hexdigest()[:10]
 
 
+def analytics(site):
+    """Google Analytics 4 tag, if site.google_analytics is set. Skipped when previewing locally."""
+    gid = site["site"].get("google_analytics")
+    if not gid:
+        return ""
+    return f"""<script>if(!/^(localhost|127\\.0\\.0\\.1)$/.test(location.hostname)){{var s=document.createElement("script");s.async=1;s.src="https://www.googletagmanager.com/gtag/js?id={esc(gid)}";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];window.gtag=function(){{dataLayer.push(arguments)}};gtag("js",new Date());gtag("config","{esc(gid)}")}}</script>
+"""
+
+
 def layout(site, page, title, body, description=None):
     s, p = site["site"], site["profile"]
     v = asset_version()
@@ -188,7 +197,7 @@ def layout(site, page, title, body, description=None):
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css?v={v}">
 <script>try{{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}}catch(e){{}}</script>
-</head>
+{analytics(site)}</head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
