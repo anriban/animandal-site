@@ -83,8 +83,9 @@ def md(text):
 
 
 def ext(url):
-    """Attributes for links that leave the site."""
-    return ' target="_blank" rel="noopener"' if re.match(r"https?://", html.unescape(url)) else ""
+    """Attributes for links that leave the site or open a PDF (such as the CV): both open in a new tab."""
+    u = html.unescape(url)
+    return ' target="_blank" rel="noopener"' if re.match(r"https?://", u) or u.lower().endswith(".pdf") else ""
 
 
 def link(url, label, cls=""):
