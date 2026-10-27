@@ -47,6 +47,12 @@ NAV = [
     ("contact.html", "Contact"),
 ]
 
+# old Google Sites URLs that search engines still link to; each gets a stub page that redirects
+REDIRECTS = {
+    "home.html": "index.html",
+    "media.html": "news.html#media",
+}
+
 
 # ------------------------------------------------------------------ helpers
 
@@ -597,6 +603,23 @@ def build_contact(site):
     return layout(site, "contact.html", "Contact", body)
 
 
+def build_redirect(site, target):
+    base = site["site"].get("url", "").rstrip("/")
+    canonical = f"{base}/{'' if target == 'index.html' else target.split('#')[0]}"
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Redirecting…</title>
+<link rel="canonical" href="{esc(canonical)}">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url={esc(target)}">
+</head>
+<body><p>This page has moved to <a href="{esc(target)}">{esc(target)}</a>.</p></body>
+</html>
+"""
+
+
 def build_404(site):
     body = page_head("Page not found", "The page you were looking for doesn't exist. Try the [home page](index.html).")
     return layout(site, "404.html", "Not found", body)
@@ -649,6 +672,8 @@ def build():
     }
     for name, content in pages.items():
         (OUT / name).write_text(content, encoding="utf-8")
+    for name, target in REDIRECTS.items():
+        (OUT / name).write_text(build_redirect(site, target), encoding="utf-8")
 
     base = site["site"].get("url", "").rstrip("/")
     urls = "".join(f"<url><loc>{esc(base)}/{'' if n == 'index.html' else n}</loc></url>" for n in pages if n != "404.html")
