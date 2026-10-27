@@ -9,6 +9,7 @@
 #   authors  (required) your name is bolded automatically
 #   venue    (required) journal / conference / workshop, place, month
 #   type     one of: journal, conference, workshop, chapter, preprint, report, poster, thesis
+#            or a list to file it under several, e.g. ["poster", "conference"]; the CV uses the first
 #   url      link to the paper (DOI preferred); leave "" if none yet
 #   pdf      optional direct PDF link
 #   status   optional, e.g. "to appear" or "under review"
@@ -85,8 +86,8 @@ year = 2026
 title = "From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications"
 authors = "K. Thareja, A. Mandal, and E. Deelman"
 venue = "POSTER Paper in 22nd IEEE International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT 2026), Reykjavik, Iceland, June 2026"
-type = "poster"
-url = ""
+type = ["poster", "conference"]
+url = "https://doi.ieeecomputersociety.org/10.1109/DCOSS-IoT69657.2026.00047"
 
 [[publication]]
 year = 2026

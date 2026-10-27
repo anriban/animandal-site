@@ -254,14 +254,20 @@ def news_item(n):
             f'<div>{badge}<p>{md(n["text"])}</p></div></li>')
 
 
+def pub_types(pub):
+    """A publication's types; `type` may be a single string or a list (first one is primary)."""
+    t = pub.get("type", "conference")
+    return [t] if isinstance(t, str) else list(t)
+
+
 def pub_item(pub, names):
     links = []
     if pub.get("url"):
         links.append(link(pub["url"], "Paper", "pub-link"))
     if pub.get("pdf"):
         links.append(link(pub["pdf"], "PDF", "pub-link"))
-    t = pub.get("type", "conference")
-    meta = [f'<span class="tag">{esc(PUB_TYPES.get(t, t))}</span>']
+    types = pub_types(pub)
+    meta = [f'<span class="tag">{esc(PUB_TYPES.get(t, t))}</span>' for t in types]
     if pub.get("status"):
         meta.append(f'<span class="tag tag-status">{esc(pub["status"][:1].upper() + pub["status"][1:])}</span>')
     if pub.get("award"):
@@ -270,7 +276,7 @@ def pub_item(pub, names):
     if pub.get("url"):
         title = link(pub["url"], title)
     search = " ".join([pub["title"], pub["authors"], pub["venue"], str(pub["year"])]).lower()
-    return f"""<li class="pub" data-type="{esc(t)}" data-year="{pub['year']}" data-search="{esc(search)}">
+    return f"""<li class="pub" data-type="{esc(" ".join(types))}" data-year="{pub['year']}" data-search="{esc(search)}">
   <h3 class="pub-title">{title}</h3>
   <p class="pub-authors">{highlight(pub["authors"], names)}</p>
   <p class="pub-line"><span class="pub-venue">{md(pub["venue"])}</span> <span class="pub-meta">{"".join(meta)}{"".join(links)}</span></p>
@@ -428,7 +434,7 @@ def build_publications(site, pubs):
     for y in years:
         items = "".join(pub_item(x, names) for x in pubs if x["year"] == y)
         groups.append(f'<section class="pub-year" id="y{y}" data-year-group><h2 class="year-head">{y}</h2><ol class="pubs">{items}</ol></section>')
-    present = [t for t in PUB_TYPES if any(x.get("type") == t for x in pubs)]
+    present = [t for t in PUB_TYPES if any(t in pub_types(x) for x in pubs)]
     filters = '<button type="button" class="filter is-active" data-filter="all">All</button>' + "".join(
         f'<button type="button" class="filter" data-filter="{t}">{PUB_TYPES[t]}</button>' for t in present
     )
@@ -643,8 +649,9 @@ def build():
     require(awards.get("grant", []), ["title", "agency", "start", "end"], "awards")
     require(awards.get("honor", []), ["year", "title", "event", "date", "recipients"], "awards")
     for pub in pubs:
-        if pub.get("type", "conference") not in PUB_TYPES:
-            sys.exit(f"Unknown publication type {pub['type']!r} for {pub['title']!r}. Use one of: {', '.join(PUB_TYPES)}")
+        for t in pub_types(pub):
+            if t not in PUB_TYPES:
+                sys.exit(f"Unknown publication type {t!r} for {pub['title']!r}. Use one of: {', '.join(PUB_TYPES)}")
 
     # stable sorts: newest first, file order kept within equal keys
     pubs.sort(key=lambda x: -int(x["year"]))

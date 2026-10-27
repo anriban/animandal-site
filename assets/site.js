@@ -56,7 +56,7 @@
     var shown = 0;
     pubs.forEach(function (el) {
       var text = el.dataset.search;
-      var ok = (type === "all" || el.dataset.type === type) &&
+      var ok = (type === "all" || el.dataset.type.split(" ").indexOf(type) !== -1) &&
         terms.every(function (t) { return text.indexOf(t) !== -1; });
       el.hidden = !ok;
       if (ok) shown++;

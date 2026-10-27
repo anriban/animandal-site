@@ -16,7 +16,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-from build import PUB_TYPES, esc, highlight, link, load, md, require
+from build import PUB_TYPES, esc, pub_types, highlight, link, load, md, require
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "cv"
@@ -134,7 +134,7 @@ def funding(awards):
 def publications(cv, pubs, names):
     groups = []
     for grp in cv.get("publication_groups", []):
-        items = [x for x in pubs if x.get("type", "conference") in grp["types"]]
+        items = [x for x in pubs if pub_types(x)[0] in grp["types"]]
         if not items:
             continue
         prefix = PUB_PREFIX.get(grp["types"][0], "P")
@@ -149,7 +149,7 @@ def publications(cv, pubs, names):
                 flags.append(f'<span class="flag">{esc(x["status"])}</span>')
             if x.get("award"):
                 flags.append(f'<span class="flag award">★ {esc(x["award"])}</span>')
-            typ = "" if len(grp["types"]) == 1 else f' <span class="kind">[{esc(PUB_TYPES.get(x.get("type"), ""))}]</span>'
+            typ = "" if len(grp["types"]) == 1 else f' <span class="kind">[{esc(PUB_TYPES.get(pub_types(x)[0], ""))}]</span>'
             authors = highlight(x["authors"].rstrip(". "), names)
             lis.append(f'<li><span class="num">{label}</span><div>{authors}. '
                        f'“{title}.” <em>{md(x["venue"])}</em>.{typ} {"".join(flags)}</div></li>')
