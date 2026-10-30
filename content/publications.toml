@@ -42,6 +42,8 @@ venue = "SC'26-W Proceedings of the 21st Workshop on Workflows in Support of Lar
 type = "workshop"
 url = ""
 status = "to appear"
+award = "Best Paper Award, WORKS '26"
+selected = true
 
 [[publication]]
 year = 2026

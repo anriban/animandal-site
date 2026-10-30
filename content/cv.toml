@@ -8,7 +8,7 @@
 # Shown under your name at the top of the CV
 headline = "Director, Network Research & Infrastructure Group (NRIG), RENCI · Associate Director, CI Compass"
 # Two to four sentences. Keep it about impact and focus, not a list of keywords.
-summary = "Computer systems researcher working at the intersection of distributed systems and scientific computing. I lead federally funded, multi-institutional research on AI-enabled scientific workflows, edge-to-cloud computing, network testbeds, performance and anomaly analysis, and cyberinfrastructure (CI) for NSF Major Facilities. My work has been supported by NSF and DOE awards with combined budgets of more than $40M, and has produced more than 100 publications, including four best paper awards."
+summary = "Computer systems researcher working at the intersection of distributed systems and scientific computing. I lead federally funded, multi-institutional research on AI-enabled scientific workflows, edge-to-cloud computing, network testbeds, performance and anomaly analysis, and cyberinfrastructure (CI) for NSF Major Facilities. My work has been supported by NSF and DOE awards with combined budgets of more than $40M, and has produced more than 100 publications, including five best paper awards."
 # Output file name (written to cv/)
 filename = "Anirban_Mandal_CV.pdf"
 # Publication groups, in order. Each publication's `type` decides its group.

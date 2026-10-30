@@ -11,6 +11,11 @@
 
 [[item]]
 date = "2026-10"
+kind = "award"
+text = "**Best Paper Award** at WORKS '26 (SC'26) for *RLSA: Adaptive LLM Gating for Multi-Agent HPC Scheduling Agents*."
+
+[[item]]
+date = "2026-10"
 kind = "paper"
 text = "Three papers accepted at **WORKS '26**, the 21st Workshop on Workflows in Support of Large-Scale Science at SC'26 in Chicago, covering AI-assisted workflow management, decentralized scheduling, and LLM gating for multi-agent HPC scheduling."
 

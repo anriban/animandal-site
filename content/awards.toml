@@ -171,6 +171,14 @@ collaborators = ["Duke University", "RENCI", "University of Massachusetts at Amh
 # ---------------------------------------------------------------- honors
 
 [[honor]]
+year = 2026
+title = "Best Paper Award"
+event = "21st Workshop on Workflows in Support of Large-Scale Science (WORKS '26) at SC'26"
+date = "November 2026"
+recipients = "H. Jin, K. Raghavan, A. Mandal, and E. Deelman"
+paper = "RLSA: Adaptive LLM Gating for Multi-Agent HPC Scheduling Agents"
+
+[[honor]]
 year = 2023
 title = "Best Paper Award"
 event = "IEEE/ACM Innovating the Network for Data-Intensive Science (INDIS) Workshop at SC'23"
